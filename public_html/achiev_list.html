@@ -1,0 +1,908 @@
+﻿<!doctype html>
+<html>
+<!-- InstanceBegin template="/Templates/seki_lab_template.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>関研究室のホームページ</title>
+  <!-- InstanceEndEditable -->
+  <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+  <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+  <link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+  <!-- InstanceBeginEditable name="スタイルシート" -->
+  <script type="text/javascript">
+    var ua = navigator.userAgent;
+
+    if ((ua.indexOf('Android') > 0 && ua.indexOf('Mobile') == -1) || ua.indexOf('A1_07') > 0 || ua.indexOf('SC-01C') > 0 || ua.indexOf('iPad') > 0) {
+      document.write('<link href="intro_prof.css" type="text/css" rel="stylesheet"/>');
+    } else if ((ua.indexOf('iPhone') > 0 && ua.indexOf('iPad') == -1) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0)) {
+      document.write('<link href="intro_prof_S.css" type="text/css" rel="stylesheet"/>');
+    } else {
+      document.write('<link href="intro_prof.css" type="text/css" rel="stylesheet"/>');
+    }
+  </script>
+  <!-- InstanceEndEditable -->
+  <script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+  <script src="jQueryAssets/jquery-ui-1.9.2.button.custom.min.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+<script src="dist/respond.src.js"></script>
+<script src="dist/html5shiv.js"></script>
+<![endif]-->
+
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <h1><a href="index.html"><img src="image/logo.png" width="307" height="114" alt="" border="0" /></a></h1>
+      <h2><a href="http://www.tcu.ac.jp/">東京都市大学</a> <a href="http://www.yc.tcu.ac.jp/informatics/">メディア情報学部</a> <a
+          href="http://www.yc.tcu.ac.jp/informatics/joho_j.html">情報システム学科</a><br>
+        関良明研究室（情報セキュリティ）</h2>
+    </div>
+    <div id="nav">
+      <div id="nav_line"><img src="image/blueline.gif" width="0" height="0" alt="" /></div>
+      <div id="nav_contents">
+        <ul>
+          <li><img src="image/nav_about_lab.png" width="250" height="48" alt="" />
+            <ul>
+              <li><a href="research_content.html"><img src="image/nav_res_con.png" width="250" height="48" alt="" /></a>
+              </li>
+              <li><a href="research_nagatsuka.html"><img src="image/歴代.png" width="250" height="48" alt="" /></a></li>
+              <li><img src="image/nav_in_pre.png" width="250" height="48" alt="" /></li>
+            </ul>
+          </li>
+          <li><img src="image/nav_intro_prof.png" width="250" height="48" alt="" />
+            <ul>
+              <li><a href="message.html"><img src="image/nav_msg_prof.png" width="250" height="48" alt="" /></a></li>
+              <li><a href="achiev_list.html"><img src="image/nav_achv_list.png" width="250" height="48" alt="" /></a>
+              </li>
+              <li><a href="career.html"><img src="image/nav_prof_car.png" width="250" height="48" alt="" /></a></li>
+              <li><a href="https://www.youtube.com/watch?v=Jp0RvwKdl2g"><img src="image/体験.png" width="240" height="100"
+                    alt="" /></a></li>
+            </ul>
+          </li>
+          <li><img src="image/nav_act_repo.png" width="250" height="48" alt="" />
+            <ul>
+              <li><a href="activity2014.html"><img src="image/nav_act_rep2014.png" width="250" height="48" alt="" /></a>
+              </li>
+              <li><a href="activity2015.html"><img src="image/nav_act_rep2015.png" width="250" height="48" alt="" /></a>
+              </li>
+              <li><a href="activity2016.html"><img src="image/nav_act_rep2016.png" width="250" height="48" alt="" /></a>
+              </li>
+              <li><a href="activity2017.html"><img src="image/nav_act_rep2017.png" width="250" height="48" alt="" /></a>
+              </li>
+              <li><a href="activity2018.html"><img src="image/nav_act_rep2018.png" width="250" height="48" alt="" /></a>
+              </li>
+              <li><a href="activity2019.html"><img src="image/nav_act_rep2019.png" width="250" height="48" alt="" /></a>
+              </li>
+              <li><a href="activity2020.html"><img src="image/nav_act_rep2020.png" width="250" height="48" alt="" /></a>
+              </li>
+              <li><a href="activity2021.html"><img src="image/nav_act_rep2021.png" width="250" height="48" alt="" /></a>
+              </li>
+            </ul>
+          </li>
+
+
+
+          <li><img src="image/nav_intro_memb.png" width="250" height="48" alt="" />
+            <ul>
+              <li><a href="member.html"><img src="image/nav_enr_memb.png" width="240" height="100" alt="" /></a></li>
+              <li><a href="member_graduate.html"><img src="image/OB＆OG.png" width="250" height="48" alt="" /></a></li>
+
+              <li><img src="image/nav_in_pre.png" width="250" height="48" alt="" /></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div id="nav_smart">
+      <div id="nav_line"><img src="image/blueline.gif" width="0" height="0" alt="" /></div>
+      <ul>
+        <li><img src="image/nav_about_lab_S.png" width="240" height="100" alt="" />
+          <ul>
+            <li><a href="research_content.html"><img src="image/nav_res_con_S.png" width="240" height="100"
+                  alt="" /></a></li>
+            <li><a href="research_nagatsuka.html"><img src="image/歴代_s.png" width="240" height="100" alt="" /></a></li>
+            <li><img src="image/nav_in_pre_S.png" width="240" height="100" alt="" /></li>
+          </ul>
+        </li>
+        <li><img src="image/nav_intro_prof_S.png" width="240" height="100" alt="" />
+          <ul>
+            <li><a href="message.html"><img src="image/nav_msg_prof_S.png" width="240" height="100" alt="" /></a></li>
+            <li><a href="achiev_list.html"><img src="image/nav_achv_list_S.png" width="240" height="100" alt="" /></a>
+            </li>
+            <li><a href="career.html"><img src="image/nav_prof_car_S.png" width="240" height="100" alt="" /></a></li>
+            <li><a href="https://www.youtube.com/watch?v=Jp0RvwKdl2g"><img src="image/体験_S.png" width="240" height="100"
+                  alt="" /></a></li>
+          </ul>
+        </li>
+        <li><img src="image/nav_act_repo_S.png" width="240" height="100" alt="" />
+          <ul>
+            <li><a href="activity2014.html"><img src="image/nav_act_rep2014_S.png" width="240" height="100"
+                  alt="" /></a></li>
+            <li><a href="activity2015.html"><img src="image/nav_act_rep2015_S.png" width="240" height="100"
+                  alt="" /></a></li>
+            <li><a href="activity2016.html"><img src="image/nav_act_rep2016_S.png" width="240" height="100"
+                  alt="" /></a></li>
+            <li><a href="activity2017.html"><img src="image/nav_act_rep2017_S.png" width="240" height="100"
+                  alt="" /></a></li>
+            <li><a href="activity2018.html"><img src="image/nav_act_rep2018_S.png" width="240" height="100"
+                  alt="" /></a></li>
+            <li><a href="activity2019.html"><img src="image/nav_act_rep2019_S.png" width="240" height="100"
+                  alt="" /></a></li>
+            <li><a href="activity2020.html"><img src="image/nav_act_rep2020_S.png" width="240" height="100"
+                  alt="" /></a></li>
+            <li><a href="activity2021.html"><img src="image/nav_act_rep2021_S.png" width="240" height="100"
+                  alt="" /></a></li>
+          </ul>
+        </li>
+        <li><img src="image/nav_intro_memb_S.png" width="240" height="100" alt="" />
+          <ul>
+            <li><a href="member.html"><img src="image/nav_enr_memb_S.png" width="240" height="100" alt="" /></a></li>
+            <li><a href="member_graduate.html"><img src="image/OB＆OG_S.png" width="240" height="100" alt="" /></a></li>
+            <li><img src="image/nav_in_pre_S.png" width="240" height="100" alt="" /></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- InstanceBeginEditable name="コンテンツエリア" -->
+    <div id="contents">
+      <h3>業績リスト</h3>
+      <p></p>
+
+      <div id="backcolor04">
+        <div class="content">
+          <h4>業績リスト(2019年度)</h4>
+          <h5>査読付き学術論文 1件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>Kouhei Nagata, and <u>Yoshiaki Seki</u>: A Method for Smartphone Theft Prevention when
+              the Owner Dozes off, IEICE Transactions on Information and Systems, Vol.E102-D, No.9, DOI:10.1587
+              /transinf.2018OFL0001(2019.10.04)（ <FONT color="BLUE">JSPS科研費JP16K00194の助成による</FONT> )
+
+            </li>
+          </ol>
+
+          <h5>予稿あり研究発表 1件</h5>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />査読なし国内研究会: 1件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>土屋 純, <u>関 良明</u>：ネットワークログイン用パスワード保管手法の提案－スクリーンショットの外部記憶領域保存－, 電子情報通信学会技術研究報告,
+              LOIS2019-41, pp.127-132(2019.11.01)
+            </li>
+          </ol>
+
+        </div>
+      </div>
+
+      <div id="backcolor02">
+        <div class="content">
+          <h4>業績リスト(2018年度)</h4>
+          <h5>査読付き学術論文 1件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>熊谷 匠純, 菊地 拓翔, 澤 信吾, 加藤 菜美絵, <u>関 良明</u>：友人関係が情報セキュリティ行動に与える影響 －大学生のパスワード共有調査－,
+              電子情報通信学会論文誌, Vol.J101-D, No.10, pp.1438-1442(2018.10.01)（ <FONT color="BLUE">JSPS科研費JP16K00194の助成による
+              </FONT> )
+
+            </li>
+          </ol>
+
+          <h5>予稿あり研究発表 2件</h5>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />査読なし国内研究会: 2件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>澤 信吾, 菊地 拓翔, <u>関 良明</u>：情報セキュリティリテラシー測定手法の提案, 2018年電子情報通信学会基礎・境界ソサイエテ/NOLTAソサイエティ大会,
+              A-19-31(2018.09.12)（ <FONT color="BLUE">JSPS科研費JP16K00194の助成による</FONT> ) </li>
+
+            <li><span>[2]:</span>菊地 拓翔, 澤 信吾, <u>関 良明</u>：クレジット決済の阻害要因を明らかにする質問紙設計,
+              2018年電子情報通信学会基礎・境界ソサイエティ/NOLTAソサイエティ大会, A-19-32(2018.09.12)（ <FONT color="BLUE">JSPS科研費JP16K00194の助成による
+              </FONT> )
+            </li>
+
+          </ol>
+        </div>
+      </div>
+
+      <div id="backcolor04">
+        <div class="content">
+          <h4>業績リスト(2017年度)</h4>
+          <h5>著書 2件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>高橋 修(監修), <u>関 良明</u>, 河辺 義信, 西垣 正勝, 岡崎 直宣, 岡崎 美蘭, 本郷 節之, 岡田 安功(著)：ネットワークセキュリティ,
+              共立出版（2017.09.25)</li>
+            <li><span>[2]:</span>Shigeaki Tanimoto, Tsutomu Konosu, Motoi Iwashita, Shinsuke Matsui, <u>Yoshiaki
+                Seki</u>, Hiroyuki Sato, Atsushi Kanai: 'Advances in Networks, Security and Communications: Reviews',
+              Vol.1, Book Series, Chapter6, Risk Assessment Considering Configuration of Hybrid Cloud Computing,
+              pp.171-185, IFSA Publishing, S.L., Barcelona, Spain, ISBN:978-84-697-8994-0, e-ISBN:978-84-697-8993-3
+
+            </li>
+          </ol>
+          <h5>国際会議発表論文 1件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>Shigeaki Tanimoto, Shun Totsuka, Motoi Iwashita, <u>Yoshiaki Seki</u>, Hiroyuki Sato,
+              Atsushi Kanai: Risk Assessment for PrivacyProtection of Information Literacy Beginners in Big Data Era,The
+              20th International Conference on Network-Based InformationSystems (NBiS-2017), Advances in Network-Based
+              InformationSystems, The 11 International Workshop on Advanced Distributedand Parallel Network Applications
+              (ADPNA-2017), pp.737-749,Springer(2017.8.24)
+            </li>
+          </ol>
+          <h5>予稿あり研究発表 6件</h5>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />査読なし国内研究会: 6件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>熊谷 匠純, 菊地 拓翔, 澤 信吾, 加藤 菜美絵, <u>関 良明</u>：大学生におけるパスワード管理の意識調査 ～ 友人関係を考慮した質問紙設計
+              ～,電子情報通信学会技術研究報告,LOIS2017-27,
+              pp.7-12(2017.11.09)（ <FONT color="BLUE">JSPS科研費JP16K00194の助成による</FONT> ) </li>
+
+            <li><span>[2]:</span>松下 海央, 永田 航平, <u>関 良明</u>：腕時計型デバイスを用いたユーザ認証維持手法の提案 ～ 加速度センサの活用
+              ～,電子情報通信学会技術研究報告,LOIS2017-28, pp.13-18(2017.11.09)（ <FONT color="BLUE">JSPS科研費JP16K00194の助成による</FONT> )
+            </li>
+
+            <li><span>[3]:</span>澤 信吾, 菊地 拓翔, 熊谷 匠純, <u>関 良明</u>：大学生の情報セキュリティ意識に関する調査分析 －代理出席時のパスワード共有－,
+              2018年電子情報通信学会総合大会, D-9-11(2018.03.21)（ <FONT color="BLUE">JSPS科研費JP16K00194の助成による</FONT> )
+            </li>
+
+            <li><span>[4]:</span>菊地 拓翔, 澤 信吾, 熊谷 匠純, <u>関 良明</u>：大学生の友人関係とパスワード/学生証共有に関する調査分析, 2018年電子情報通信学会総合大会,
+              D-9-12(2018.03.21)（ <FONT color="BLUE">JSPS科研費JP16K00194の助成による</FONT> )
+            </li>
+
+            <li><span>[5]:</span>熊谷 匠純, 菊地 拓翔, 澤 信吾, <u>関 良明</u>：大学生のパスワード共有に関する調査分析 －友人関係を考慮した情報セキュリティ行動モデル－,
+              2018年電子情報通信学会総合大会, D-9-13(2018.03.21)（ <FONT color="BLUE">JSPS科研費JP16K00194の助成による</FONT> )
+            </li>
+
+            <li><span>[6]:</span>永田 航平, <u>関 良明</u>：ウェアラブルデバイスを用いたキーガード自動制御, 2018年電子情報通信学会総合大会, D-9-16(2018.03.21)（
+              <FONT color="BLUE">JSPS科研費JP16K00194の助成による</FONT> )
+            </li>
+
+          </ol>
+        </div>
+      </div>
+
+      <div id="backcolor01">
+        <div class="content">
+          <h4>業績リスト(2016年度)</h4>
+          <h5>国際会議発表論文 2件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>Shigeaki Tanimoto, <u>Yoshiaki Seki</u>, Hiroyuki Sato, Atsushi Kanai:
+              Risk Assessment Quantification of Social-media Utilization in
+              Enterprise, 15th IEEE/ACIS International Conference on Computer and
+              Information Science (ICIS2016), Special Session(SS-09)(2016.06.26) </li>
+
+            <li><span>[2]:</span>Takeshi Imai, Shigeaki Tanimoto, Takashi Hatasima, <u>Yoshiaki Seki</u>:
+              Risk Assessment with Consideration for Indirect Stakeholder in SNS,
+              10th International Conference on Project Management
+              (ProMAC2016)(2016.11.16)</li>
+          </ol>
+          <h5>予稿あり研究発表 3件</h5>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />査読なし国内研究会: 3件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>加藤 慶太郎, <u>関 良明</u>：CMSを用いたゼミ活動支援システムの検討,日本計算工学会第19回問題解決環境ワークショップ論文集,pp.4-7(2016.09.01)
+            </li>
+
+            <li><span>[2]:</span>吉田 達司, <u>関 良明</u>：OAuth認証を利用するSNSにおける認可のリスク,電子情報通信学会技術研究報告,LOIS2016-38,
+              pp.57-62(2016.11.07)（ <FONT color="BLUE">JSPS科研費JP16K00194の助成による</FONT> )
+            </li>
+
+            <li><span>[3]:</span>松下 海央, <u>関 良明</u>：腕時計型デバイスの取り外し検出手法の一考察,2017年電子情報通信学会総合大会,D-9-17(2017.03.22)（ <FONT
+                color="BLUE">JSPS科研費JP16K00194の助成による</FONT> )
+            </li>
+        </div>
+      </div>
+
+      <div id="backcolor02">
+        <div class="content">
+          <h4>業績リスト(2015年度)</h4>
+          <h5>国際会議発表論文 1件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>Shigeaki Tanimoto, Kenichi Ohata, Shoichi Yoneda, Motoi Iwashita, <u>Yoshiaki Seki</u>,
+              Hiroyuki Sato, Atsushi Kanai: Risk Assessment of
+              Social-media Utilization in an Enterprise, 16th IEEE/ACIS International
+              Conference on Software Engineering, Artificial Intelligence, Networking
+              and Parallel/Distributed Computing (SNPD2015), pp.1-4(2015.06.01) </li>
+          </ol>
+          <h5>予稿あり研究発表 4件</h5>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />査読なし国内研究会: 4件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span><u>関 良明</u>, 広田 すみれ, 山崎 瑞紀：Facebook利用におけるプライバシー開示リスクアセスメント　－若手社会人のプライバシー設定状況と意識－,
+              電子情報通信学会技術研究報告, LOIS2015-7, pp.85-90(2015.05.14)
+            </li>
+            <li><span>[2]:</span>佐藤 圭, <u>関 良明</u>：Twitterを用いた観光地の混雑状況分析手法の検討, 電子情報通信学会技術研究報告, LOIS2015-8,
+              pp.91-96(2015.05.14)</li>
+            <li><span>[3]:</span> 広田 すみれ, <u>関 良明</u>, 山崎 瑞紀: 若手社会人のFacebook利用における写真掲載行動 -自己呈示とセキュリティ感覚-,
+              日本社会心理学会第56回大会, P422-03, pp.392(2015.10.31)</li>
+            <li><span>[4]:</span> 吉田 達司, <u>関 良明</u>: OAuth認証を利用するSNSの認可リスクに関する考察,情報処理学会第78回全国大会講演論文集, 5V-03,
+              pp.3_537-538(2016.03.10）</li>
+          </ol>
+        </div>
+      </div>
+
+
+      <div id="backcolor03">
+        <div class="content">
+          <h4>業績リスト(2014年度)</h4>
+          <h5>著書 1件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>諏訪 敬祐, <u>関 良明</u>：はじめての情報通信技術と情報セキュリティ, 丸善出版（2015.02.25)</li>
+          </ol>
+          <h5>査読付き学術論文 3件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>高野 誠士, <u>関 良明</u>, 諏訪 博彦：個人ユーザ向けHTTPS暗号危殆化確認サービスの受容性評価, 電子情報通信学会論文誌, Vol.J97-D, No.5,
+              pp.975-983(2014.05.01）（<blue> 主任指導教員として研究指導 </blue>）</li>
+            <li><span>[2]:</span><u>関 良明</u>，千葉 直子，橋元 良明： 従業員のTwitter利用における情報漏えいリスクアセスメント―投稿経験と投稿意識―，電子情報通信学会論文誌,
+              Vol.J97-D, No.12, pp.1709-1713(2014.12.01）</li>
+            <li><span>[3]:</span>千葉 直子，<u>関 良明</u>，橋元 良明： 従業員のTwitter利用に対する情報漏えいリスク管理策の考察，電子情報通信学会論文誌, Vol.J97-D, No.12,
+              pp.1714-1718(2014.12.01）</li>
+          </ol>
+          <h5>国際会議発表論文 1件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>Shigeaki Tanimoto, Ryota Sato, Kazuhiko Kato, Motoi Iwashita, <u>Yoshiaki Seki</u>,
+              Hiroyuki Sato, Atsushi Kanai: A Study of Risk Assessment Quantification in Cloud Computing, The 8th
+              International Workshop on Advanced Distributed and Parallel Network Applications (ADPNA-2014)(2014.09.10)
+            </li>
+          </ol>
+          <h5>紀要 1件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span><u>関 良明</u>：サイバー社会における情報セキュリティ行動の考察－SNSの利活用－, 東京都市大学横浜キャンパス紀要, No.2,
+              pp.29-36(2015.02.28)</li>
+          </ol>
+          <h5>予稿あり研究発表 1件</h5>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />査読なし国内研究会: 1件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>畑島 隆, <u>関 良明</u>, 坂本 泰久, 栢口 茂：私有携帯型情報端末の業務利用における導入および運用の判断指針の体系的分析, 電子情報通信学会技術研究報告,
+              LOIS2014-16，pp.29-34（2014.07.25）</li>
+          </ol>
+        </div>
+      </div>
+      <div id="backcolor04">
+        <div class="content">
+          <h4>業績リスト(2013年以前)</h4>
+          <h5>著書 1件</h5>
+          <ol class="num2">
+            <li><span>[1-1]:</span><u>関 良明</u>：知識伝播, bit別冊「知的触発に向かう情報社会－グループウェア維新」, pp.62-76, 共立出版（
+              <blue>1994.04.05</blue>
+              ）
+            </li>
+          </ol>
+          <h5>査読付き学術論文 16件</h5>
+          <ol class="num2">
+            <li><span>[2-1]:</span>千葉 直子, <u>関 良明</u>, 堀川 裕介, 橋元 良明：青少年の安全なインターネット利用を実現する家庭の取組みに関する考察, 情報処理学会論文誌,
+              Vol.55, No.1, pp.311-324（2014.01.15）</li>
+            <li><span>[2-2]:</span>原 賢, 三浦 大樹, <u>関 良明</u>, 諏訪博彦：情報セキュリティ行動をツイートする情報共有手法の提案と受信者の情報接触行動の考察, 情報処理学会論文誌,
+              Vol.55, No.1, pp.210-220(2014.01.15）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[2-3]:</span>千葉 直子, 山本 太郎, <u>関 良明</u>, 高橋 克巳, 小笠原 盛浩, 関谷 直也, 中村 功, 橋元
+              良明：インターネット上の有害情報に対する利用者意識の国際比較調査と考察, 情報処理学会論文誌, Vol.54, No.4, pp.1619-1631（2013.04.15）</li>
+            <li><span>[2-4]:</span>谷本 茂明, <u>関 良明</u>, 岩下 基, 佐藤 周行, 金井 敦：ビックデータを活用したサービスに関するリスクアセスメント, 電子情報通信学会論文誌 A
+              Vol.J96-A, No.4, pp.189-194（2013.04.01）</li>
+            <li><span>[2-5]:</span> 山本 悠介, <u>関 良明</u>, 諏訪 博彦：文献調査活動に基づく研究情報表現手法の提案と評価, 社会情報学, Vol.1, No.2,
+              pp.49-59（2012.12.31）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[2-6]:</span>諏訪 博彦, 原 賢, <u>関 良明</u>：情報セキュリティ行動モデルの構築 -人はなぜセキュリティ行動をしないのか, 情報処理学会論文誌, Vol.53,
+              No.9, pp.2204-2212（2012.09.15）（
+              <blue>関研究室（電通大）の業績</blue>
+              ）
+            </li>
+            <li><span>[2-7]:</span>武藤 健一郎, 知加良 盛, 山本 剛, 小林 鉄太郎, <u>関 良明</u>：ID ベース暗号における受信者主導型秘密鍵管理方式, 電子情報通信学会論文誌,
+              Vol.J95-D, No.5, pp.1183-1192（2012.05.01）</li>
+            <li><span>[2-8]:</span>佐藤 亮太, 神田 雅透, <u>関 良明</u>, 武藤 健一郎, 知加良 盛, 吉田 勝彦, 栢口 茂, 平田
+              真一：セキュリティプロトコルにおける暗号アルゴリズム調査手法とその考察, 情報処理学会論文誌, Vol.53, No.2, pp.474-484（2012.02.15）</li>
+            <li><span>[2-9]:</span>橋本 峻平, <u>関 良明</u>, 諏訪 博彦：短期的な世代交代のある組織における注記事項伝承システムLEAVES, 情報処理学会論文誌, Vol.52, No.1,
+              pp.121-130（2011.01.15）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+          </ol>
+          <ol class="num3">
+            <li><span>[2-10]:</span>谷本 茂明, <u>関 良明</u>, 木村 義政, 木内 陽介：個人のコンテキスト情報に基づく動的多重帰属グループサービスの提案, 情報処理学会論文誌,
+              Vol.51, No.2, pp.575-589（2010.02.15）</li>
+            <li><span>[2-11]:</span><u>Yoshiaki Seki</u>, and Tetsuo Hidaka: DOLPHIN: Digital Online Library Providing
+              Human-Like Interactive Navigation, IEEE Transactions on Knowledge and Data Engineering (TKDE) Concise
+              Papers, Vol.13, No.4, pp.703-704 (2001.05.30)</li>
+            <li><span>[2-12]:</span>荒金 陽助, <u>関 良明</u>, 吉開 範章：ドライビング環境適応型コミュニケーション・ナビゲータのための実験評価システムの開発とその評価,
+              電子情報通信学会論文誌, Vol.J82-B, No.11, pp.1966-1973（1999.11.25）</li>
+            <li><span>[2-13]:</span><u>関 良明</u>, 爰川 知宏, 清水 明宏：情報連携モジュールFly-fishingの提案と性能評価, 電子情報通信学会論文誌, Vol.J82-D-I,
+              No.9, pp.1202-1209（1999.09.25）</li>
+            <li><span>[2-14]:</span><u>関 良明</u>：分散型ノウハウ蓄積システムGoldFISHにおける分散環境への適応, 情報処理学会論文誌, Vol.36, No.6,
+              pp.1359-1366（1995.06.15）</li>
+            <li><span>[2-15]:</span><u>Yoshiaki Seki</u>, Toshihiko Yamakami, and Akihiro Shimizu: Flexible Information
+              Sharing and Handling System -Towards Knowledge Propagation-, IEICE Transactions on Communications,
+              Vol.E77-B, No.3, pp.404-410 (1994.03.20)</li>
+            <li><span>[2-16]:</span> <u>関 良明</u>, 山上 俊彦, 清水 明宏：ノウハウ蓄積システムFISHの実現とその評価, 電子情報通信学会論文誌, Vol.J76-D-II, No.6,
+              pp.1223-1231（1993.06.25）</li>
+          </ol>
+          <h5>査読なし学術論文 3件</h5>
+          <ol class="num2">
+            <li><span>[3-1]:</span>Yosuke Aragane, <u>Yoshiaki Seki</u>, and Noriaki Yoshikai: Development and
+              Evaluation of a Prototype System for Communication Navigator on Driving Environment, Scripta Technica,
+              Inc., Electronics and Communications in Japan, Part 1, Vol.84, No.1, pp.12-20(2001.01) （
+              <blue>[2-12]の英訳</blue>
+              ）
+            </li>
+            <li><span>[3-2]:</span><u>Yoshiaki Seki</u>, Tomohiro Kokogawa, and Akihiro Shimizu: Fly-fishing - A Dynamic
+              Linking Module, Scripta Technica, Inc., Systems and Computers in Japan, Vol.31, No.7, pp.38-46(2000.07) （
+              <blue>[2-13]の英訳</blue>
+              ）
+            </li>
+            <li><span>[3-3]:</span><u>Yoshiaki Seki</u>, Toshihiko Yamakami, and Akihiro Shimizu: FISH: Flexible
+              Information Sharing and Handling System, Scripta Technica, Inc., Systems and Computers in Japan, Vol.25,
+              No.10, pp.36-46(1994.11) （
+              <blue>[2-16]の英訳</blue>
+              ）
+            </li>
+          </ol>
+          <h5>依頼論文 1件</h5>
+          <ol class="num2">
+            <li><span>[4-1]:</span>Hirohiko Suwa, Satoshi Hara, and <u>Yoshiaki Seki</u>: Construction of Information
+              Security Behavior model - Why don’t people practice security behavior? -, 4th World Congress on Social
+              Simulation (WCSS2012)(2012.09.04) （
+              <blue>招待講演, 関研究室（電通大）の業績</blue>
+              ）
+            </li>
+          </ol>
+          <h5>国際会議発表論文 11件</h5>
+          <ol class="num2">
+            <li><span>[5-1]:</span>Shigeaki Tanimoto, Yorihiro Sakurada, <u>Yoshiaki Seki</u>, Motoi Iwashita, Shinsuke
+              Matsui, Hiroyuki Sato, Atsushi Kanai: A Study of Data Management in Hybrid Cloud Configuration, 14th
+              IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and
+              Parallel/Distributed Computing (SNPD2013), pp.381-386(2013.07.01)</li>
+            <li><span>[5-2]:</span>Shigeaki Tanimoto, Chihiro Murai, <u>Yoshiaki Seki</u>, Motoi Iwashita, Shinsuke
+              Matsui, Hiroyuki Sato, Atsushi Kanai: A Study of Risk Management in Hybrid Cloud Configuration, Springer,
+              Computer and Information Science, Studies in Computational Intelligence, Vol.493, pp.247-257(2013.06.16)
+            </li>
+            <li><span>[5-3]:</span>Shigeaki Tanimotoi, <u>Yoshiaki Seki</u>, Motoi Iwashita, Shinsuke Matsui, Yoshimasa
+              Kimura, Yohsuke Kinouchi: A Study of Requirement Definition in User-oriented Virtual Network Architecture,
+              12th IEEE/ACIS International Conference on Computer and Information Science (ICIS2013)(2013.06.16)</li>
+            <li><span>[5-4]:</span>Shigeaki Tanimoto, Daisuke Sakurai, <u>Yoshiaki Seki</u>, Motoi Iwashita, Hiroyuki
+              Sato, Atsushi Kanai: Risk Management to User Perception of Insecurity in Ambient Service, 13th ACIS
+              International Conference on Software Engineering, Artificial Intelligence, Networking and
+              Parallel/Distributed Computing (SNPD2012), pp.771-776(2012.08.08)</li>
+            <li><span>[5-5]:</span>Yosuke Aragane, and <u>Yoshiaki Seki</u>: Communication Navigator for Driving
+              Environments: Towards a Safer Driving Environment, IEEE International Symposium on Intelligent Signal
+              Processing and Communication Systems, pp.653-656(1999.12.08)</li>
+            <li><span>[5-6]:</span>Tomohiro Kokogawa, Mitsuhiro Yuitou, Masakazu Nishino, and <u>Yoshiaki Seki</u>:
+              NetLibra: Toward Networking Library Systems, International Symposium on Digital Libraries 1999,
+              pp.82-88(1999.09.28)</li>
+            <li><span>[5-7]:</span>Noriaki Yoshikai, Tetsushi Noda, Fumihiko Maeda, and <u>Yoshiaki Seki</u>: ITS
+              Services and Communication networks in the Asia-Pacific Region, Asia-Pacific Symposium on Information and
+              Telecommunication Technologies, pp.14-18(1999.08.30)</li>
+            <li><span>[5-8]:</span>Noriaki Saito, Tetsuo Hidaka, Takahiro Abe, and <u>Yoshiaki Seki</u>: Net-X:
+              Contents-Mediation System with Information-Organizing technology, Asia-Pacific Symposium on Information
+              and Telecommunication Technologies, pp.308-312(1999.08.30)</li>
+            <li><span>[5-9]:</span><u>Yoshiaki Seki</u>, Toshihiko Yamakami, and Akihiro Shimizu: Knowledge Propagation
+              with FISH: Experience and Analysis, Joint Workshop on Computer Communications-8 (JWCC-8),
+              pp.F3_1_1-5(1993.12.12)</li>
+          </ol>
+          <ol class="num3">
+            <li><span>[5-10]:</span><u>Yoshiaki Seki</u>, Toshihiko Yamakami, and Akihiro Shimizu: Usage Pattern
+              Analysis in Organizational Information Sharing, Joint Conference on Software Engineering’93 (JCSE’93)
+              (1993.11.17)</li>
+            <li><span>[5-11]:</span>Toshihiko Yamakami, and <u>Yoshiaki Seki</u>: Knowledge Awareness on Asynchronous
+              Information Sharing, IFIP 8.4 Working Conference The Open System Future: Leveraging The LAN,
+              pp.215-225(1993.08.29)</li>
+          </ol>
+          <h5>紀要 5件</h5>
+          <ol class="num2">
+            <li><span>[6-1]:</span>橋元 良明, 千葉 直子, <u>関 良明</u>, 河井 大介, 菅野 千尋：誰がネットで情報漏洩するのか？-企業従業員に対するTwitter利用調査-,
+              東京大学大学院情報学環, 情報学研究, 調査研究編, No.30, pp.53-109（2014.03.27）</li>
+            <li><span>[6-2]:</span>千葉 直子, <u>関 良明</u>, 橋元 良明, 堀川 裕介, 原田 悠輔：中高生のスマートフォン利用と有害情報接触-東京23区親子訪問留置調査-,
+              東京大学大学院情報学環, 情報学研究, 調査研究編, No.29, pp.51-104（2013.03.27）</li>
+            <li><span>[6-3]:</span>橋元 良明, 中村 功, 関谷 直也, 小笠原 盛浩, 山本 太郎, 千葉 直子, <u>関 良明</u>, 高橋 克巳：被災地住民の震災時情報行動と通信不安
+              -仙台・盛岡訪問留置調査-, 東京大学大学院情報学環, 情報学研究, 調査研究編, No.28, pp.1-64（2012.03.28）</li>
+            <li><span>[6-4]:</span>関谷 直也, 橋元 良明, 中村 功, 小笠原 盛浩, 山本 太郎, 千葉 直子, <u>関 良明</u>, 高橋
+              克巳：東日本大震災における首都圏住民の震災時の情報行動, 東京大学大学院情報学環, 情報学研究, 調査研究編, No.28, pp.65-113（2012.03.28）</li>
+            <li><span>[6-5]:</span>山本 太郎, 橋元 良明, 中村 功, 関谷 直也, 小笠原 盛浩, 千葉 直子, <u>関 良明</u>, 高橋
+              克巳：Twitter利用を中心とする震災時の情報行動と通信不安 -関東Twitter利用者ウェブ調査, 東京大学大学院情報学環, 情報学研究, 調査研究編, No.28,
+              pp.115-160（2012.03.28）</li>
+          </ol>
+          <h5>予稿あり研究発表 102件</h5>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />査読付き国内シンポジウム: 6件</h5>
+          <ol class="num3">
+            <li><span>[7'-1]:</span>山本 太郎, <u>関 良明</u>, 高橋 克巳：インターネット利用における不安の対象とその要因の調査結果に関する一考察, マルチメディア, 分散,
+              協調とモバイルシンポジウム(DICOMO2013), 1G-5, pp.1233-1241（2013.07.10）</li>
+            <li><span>[7'-2]:</span>千葉 直子, 山本 太郎, <u>関 良明</u>, 高橋 克巳, 小笠原 盛浩, 関谷 直也, 中村 功, 橋元 良明：被災地住民の情報通信利用の実態と心理
+              -東日本大震災の被災地住民への訪問留置調査-, マルチメディア, 分散, 協調とモバイルシンポジウム(DICOMO2012), 1G-4, pp.238-245（2012.07.04）</li>
+            <li><span>[7'-3]:</span>山本 太郎, 千葉 直子, <u>関 良明</u>, 高橋 克巳, 小笠原 盛浩, 関谷 直也, 中村 功, 橋元
+              良明：被災地住民のインターネット利用における安心と不安 -東日本大震災の被災地住民への訪問留置調査-, マルチメディア, 分散, 協調とモバイルシンポジウム(DICOMO2012), 1G-5,
+              pp.246-257（2012.07.04）</li>
+            <li><span>[7'-4]:</span>佐藤 亮太, 吉田 勝彦, 知加良 盛, <u>関 良明</u>, 神田 雅透, 栢口 茂, 平田 真一：SSLにおける暗号設定確認ツールの提案と評価,
+              第10回情報科学技術フォーラム(FIT2011), RO-004, pp.4_119-126（2011.09.07）（
+              <blue>FIT2011論文賞受賞</blue>
+              ）
+            </li>
+            <li><span>[7'-5]:</span>橋本 峻平, <u>関 良明</u>, 諏訪博彦：短期的な世代交代のある組織における注記事項伝承システムの提案,
+              グループウェアとネットワークサービスワークショップ2009, 8-1（2009.09.17）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7'-6]:</span><u>関 良明</u>, 小田 哲, 小林 鉄太郎：ストレージの暗号化による仮想プライベートデバイスの提案, 第8回情報科学技術フォーラム(FIT2009),
+              RM-012, pp.4_87-94（2009.09.02）</li>
+          </ol>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />査読なし国内研究会: 96件</h5>
+          <ol class="num2">
+            <li><span>[7-1]:</span><u>関 良明</u>, 千葉 直子, 橋元 良明：従業員のTwitter利用における情報漏えいリスクアセスメント－業務に関する投稿経験と意識－,
+              電子情報通信学会技術研究報告, LOIS2013-75, pp.125-130（2014.03.07）</li>
+            <li><span>[7-2]:</span>千葉 直子, <u>関 良明</u>, 橋元 良明：従業員のTwitter利用における情報漏えいリスクアセスメント－企業におけるリスク管理策の実態と有効性－,
+              電子情報通信学会技術研究報告, LOIS2013-76, pp.131-136（2014.03.07）（ <blue>LOIS研究賞受賞</blue> ）</li>
+            <li><span>[7-3]:</span>山本 太郎, <u>関 良明</u>, 高橋　克巳：不安意識調査におけるネットサービスのカテゴリ別差異,
+              情報処理学会コンピュータセキュリティシンポジウム論文集（CSS2013）, pp.239-246（2013.10.14）</li>
+            <li><span>[7-4]:</span>堀川 裕介, 橋元　良明, 千葉　直子, <u>関 良明</u>, 原田　悠輔：スマートフォンによる青少年のインターネット依存および親子関係と依存の関連,
+              2013年社会情報学会(SSI)学会大会, pp.101-106（2013.09.13）</li>
+            <li><span>[7-5]:</span>山本 太郎, <u>関 良明</u>, 高橋 克巳：画像共有サイトにおける不安調査結果に対する一考察, 情報処理学会研究報告, Vol.2013-SPT-5,
+              No.11, pp.1-8（2013.05.16）</li>
+            <li><span>[7-6]:</span>原 賢, 三浦 大樹, <u>関 良明</u>, 諏訪 博彦：情報セキュリティ行動をツイートする情報共有システムの検討, 電子情報通信学会技術研究報告,
+              LOIS2012-85, pp.95-100（2013.03.07）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-7]:</span>三浦 大樹, 原 賢, <u>関 良明</u>, 諏訪 博彦：情報セキュリティ行動をツイートする情報共有システムの実装, 電子情報通信学会技術研究報告,
+              LOIS2012-86, pp.101-106（2013.03.07）（
+              <blue>関研究室（電通大）の業績</blue>
+              ）
+            </li>
+            <li><span>[7-8]:</span>原 賢, <u>関 良明</u>, 諏訪 博彦：情報セキュリティ行動をツイートする情報共有システムの考察, 第19回社会情報システム学シンポジウム学術講演論文集,
+              1-3, pp.19-24（2013.01.23）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-9]:</span>千葉 直子, 山本 太郎, <u>関 良明</u>, 高橋 克巳, 小笠原 盛浩, 関谷 直也, 中村 功, 橋元 良明：東日本大震災における情報行動と利用者心理,
+              電子情報通信学会, 安全・安心な生活のための情報通信システム研究会（2012.11.15）（
+              <blue>招待講演</blue>
+              ）
+            </li>
+          </ol>
+          <ol class="num3">
+            <li><span>[7-10]:</span>千葉 直子, <u>関 良明</u>, 橋元 良明：青少年のネット利用に関する保護者へのグループインタビュー調査の一考察,
+              情報処理学会コンピュータセキュリティシンポジウム論文集（CSS2012）, pp.450-457（2012.10.30）</li>
+            <li><span>[7-11]:</span>山本 太郎, 植田 広樹, <u>関 良明</u>, 高橋 克巳, 小笠原 盛浩, 関谷 直也, 中村 功, 橋元
+              良明：ネットショッピング・オークション利用に際する不安調査結果に対する一考察, 情報処理学会コンピュータセキュリティシンポジウム論文集（CSS2012）, pp.547-554（2012.10.30）</li>
+            <li><span>[7-12]:</span>山本 太郎, <u>関 良明</u>, 高橋 克巳：オンラインゲームにおける不安調査結果に対する一考察, 情報処理学会デジタルコンテンツクリエーション研究会,
+              Vol.2012-DCC-2, No.19, pp.1-8（2012.10.17）</li>
+            <li><span>[7-13]:</span>原 賢, <u>関 良明</u>, 諏訪 博彦：情報セキュリティ行動ログをツイートする情報共有システムの提案, 2012年社会情報学会(SSI)学会大会,
+              pp.85-90（2012.09.14）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-14]:</span>谷本 茂明, 高橋 健, <u>関 良明</u>, 岩下 基, 佐藤 周行, 金井 敦：ライフログサービスにおけるリスクマネジメントに関する検討,
+              電子情報通信学会技術研究報告, LOIS2012-8, pp.127-132（2012.05.17）</li>
+            <li><span>[7-15]:</span>原 賢, <u>関 良明</u>, 諏訪 博彦：情報セキュリティ行動モデルに基づく行動変容の検討, 電子情報通信学会総合大会 学生ポスターセッション,
+              ISS-SP-050, pp.205（2012.03.20）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-16]:</span>武藤 健一郎, 知加良　盛, 佐藤 亮太, <u>関 良明</u>：SSL/SSHにおける暗号危殆化対策状況の可視化に関する一考察 ,
+              暗号と情報セキュリティシンポジウム（SCIS2012）, 2F1-3（2012.01.30）</li>
+            <li><span>[7-17]:</span>諏訪 博彦, 原 賢, <u>関 良明</u>：人はなぜ情報セキュリティ行動をしないのか？, 第18回社会情報システム学シンポジウム学術講演論文集,
+              7-3（2012.01.26）（
+              <blue>関研究室（電通大）の業績</blue>
+              ）
+            </li>
+            <li><span>[7-18]:</span>千葉 直子, 山本 太郎, <u>関 良明</u>, 高橋 克巳, 小笠原 盛浩, 関谷 直也, 中村 功, 橋元 良明：震災時の情報通信利用の実態と利用者の心理
+              -首都圏居住者へのWebアンケート調査-, 情報処理学会研究報告, Vol.2011-SPT-2, No.2, pp.1-8（2011.12.26）</li>
+            <li><span>[7-19]:</span>山本 太郎, 千葉 直子, <u>関 良明</u>, 植田 広樹, 高橋 克巳, 小笠原 盛浩, 関谷 直也, 中村 功, 橋元 良明：Twitter
+              利用者の震災後の不安と安心, 情報処理学会研究報告, Vol.2011-SPT-2, No.3（2011.12.26）</li>
+            <li><span>[7-20]:</span>千葉 直子, 山本 太郎, <u>関 良明</u>, 植田 広樹, 高橋 克巳, 小笠原 盛浩, 関谷 直也, 中村 功, 橋元
+              良明：大地震発生時の通信利用に関する実態と期待 -首都圏居住者へのWebアンケート調査-, 電子情報通信学会安全・安心な生活のための情報通信システム研究会(ICSSSL)予稿集（2011.12.01）</li>
+            <li><span>[7-21]:</span>原 賢, 武藤 健一郎, 知加良　盛, <u>関 良明</u>：SSHにおける暗号危殆化状況の可視化手法に関する検討, 電子情報通信学会技術研究報告,
+              ISEC2011-52,LOIS2011-46, pp.123-128（2011.11.14）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-22]:</span>高野 誠士, <u>関 良明</u>, 諏訪 博彦：暗号危殆化に対するHTTPS暗号可視化手法の提案, 2011年日本社会情報学会(JSIS&JASI)合同研究大会,
+              Ⅲ-3-4, pp.335-338（2011.09.09）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-23]:</span>高野 誠士, <u>関 良明</u>, 諏訪 博彦：暗号危殆化に対するHTTPS暗号確認サービスの提案, 電子情報通信学会総合大会講演論文集, D-9-31,
+              p.107（2011.03.14）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-24]:</span>武藤 健一郎, 知加良　盛, 吉田　勝彦, 栢口　茂, <u>関
+                良明</u>：ハッシュ関数の危殆化によるセキュリティリスクの考察：情報蓄積システムにおける脆弱性の顕在化について, 電子情報通信学会技術研究報告, LOIS2010-81,
+              pp.95-100（2011.03.03）</li>
+            <li><span>[7-25]:</span>武藤 健一郎, 知加良　盛, 山本　剛, 小林　鉄太郎, <u>関 良明</u>, 平田 真一：情報鍵暗号における鍵管理方式の検討,
+              暗号と情報セキュリティシンポジウム（SCIS2011）, 2F1-4（2011.01.25）</li>
+            <li><span>[7-26]:</span>山本 悠介, <u>関 良明</u>, 諏訪 博彦：研究グループにおける文献を基にした情報共有指標の考察, 第17回社会情報システム学シンポジウム学術講演論文集,
+              4-1, pp.73-78（2011.01.21）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-27]:</span>佐藤 亮太, <u>関 良明</u>, 吉田 勝彦, 栢口 茂, 平田 真一：セキュリティプロトコルにおける暗号アルゴリズム調査手法の提案
+              -SSLで利用可能な暗号アルゴリズムの暗号危殆化対策-, 電子情報通信学会技術研究報告, LOIS2010-39（ISEC2010-60）, pp.73-80（2010.11.17）</li>
+            <li><span>[7-28]:</span>高野 誠士, 佐藤 亮太, 武藤 健一郎, 知加良 盛, 神田 雅透, <u>関 良明</u>：SSLにおける暗号危殆化サンプル調査とその考察,
+              電子情報通信学会技術研究報告, LOIS2010-38（ISEC2010-59）, pp.65-72（2010.11.17）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-29]:</span>山本 悠介, <u>関 良明</u>, 諏訪 博彦：研究グループにおける文献を基にした研究情報可視化インタフェースRIAS_spaceの提案,
+              情報処理学会グループウェアとネットワークサービスワークショップ2010, 7-2（2010.09.16）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-30]:</span>山本 悠介, <u>関 良明</u>, 諏訪 博彦：研究グループにおける文献を基にした知識共有指標の提案,
+              2010年日本社会情報学会(JSIS&JASI)合同研究大会, 4-2-2S（2010.09.04）（
+              <blue>第12回研究発表賞受賞, 主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-31]:</span>橋本 峻平, <u>関 良明</u>, 諏訪 博彦：短期的な世代交代のある組織における注記事項伝承システムの構築,
+              情報処理学会創立50周年記念（第72回）全国大会講演論文集, 5ZG-5, pp.4_261-262（2010.03.08）（
+              <blue>学会推奨修士論文認定者受賞, 主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-32]:</span>山本 悠介, <u>関 良明</u>, 諏訪 博彦, 橋本 峻平：組織における文献を基にした知識共有手法の提案,
+              情報処理学会創立50周年記念（第72回）全国大会講演論文集, 5ZG-6, pp.4_263-264（2010.03.08）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-33]:</span>橋本 峻平, <u>関 良明</u>, 諏訪 博彦：短期的な世代交代のある組織における注記事項伝承システムの考察, 第16回社会情報システム学シンポジウム, 3-3,
+              pp.51-56（2010.01.22）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-34]:</span>宮木 一郎, 小田 哲, <u>関 良明</u>, 冨士 仁, 平田 真一, 板倉 征男：認可機能への暗号適用手法,
+              暗号と情報セキュリティシンポジウム（SCIS2010）, 3E4-1（2010.01.19）</li>
+            <li><span>[7-35]:</span>宮木 一郎, <u>関 良明</u>, 冨士 仁, 平田 真一, 板倉 征男：情報共有における認証・認可機能構成の一考察,
+              コンピュータセキュリティシンポジウム（CSS2009）（2009.10.26）</li>
+            <li><span>[7-36]:</span>谷本 茂明, 村山 純一, <u>関 良明</u>：多重帰属VPNサービスにおけるセキュリティアーキテクチャ,
+              コンピュータセキュリティシンポジウム（CSS2009）（2009.10.26）</li>
+            <li><span>[7-37]:</span>橋本 峻平, <u>関 良明</u>：短期的な世代交代のある組織における注記事項の伝承に関する提案, 情報処理学会第71回全国大会講演論文集, 4X-8,
+              pp.4_111-112（2009.03.10）（
+              <blue>学生奨励賞受賞, 主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-38]:</span>小田 哲, 小林 鉄太郎, <u>関 良明</u>：ストレージに対する暗号化の一考察, 暗号と情報セキュリティシンポジウム（SCIS2009）（2009.01.20）
+            </li>
+            <li><span>[7-39]:</span><u>関 良明</u>：研究組織における取り纏め業務の考察, 電子情報通信学会技術研究報告, OIS-2008-8, pp.43-48（情報処理学会研究報告,
+              Vol.2008, No.48, 2008-GN-68, pp.43-48）（2008）</li>
+            <li><span>[7-40]:</span>浅見 拓哉, <u>関 良明</u>：テーマパーク問題における利用者行動シミュレーションを用いた誘導法に関する考察, 第14回社会情報システム学シンポジウム,
+              3-3（2008）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-41]:</span>浅見 拓哉, <u>関 良明</u>：テーマパーク問題に対する二次元セルオートマトンを用いた利用者行動のシミュレーション,
+              2007年日本社会情報学会(JSIS&JASI)合同研究大会, IV-49（2007）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-42]:</span>浅見 拓哉, <u>関 良明</u>：複数の目的地を巡回する個別運動モデルの考察, 情報処理学会第69回全国大会講演論文集, 1V-9（2007）（
+              <blue>主任指導教員として研究指導</blue>
+              ）
+            </li>
+            <li><span>[7-43]:</span>谷本 茂明, <u>関 良明</u>, 塩野入 理, 金井 敦：多重帰属グループサービスアーキテクチャの検討 -グループ間競合制御方式についての考察-,
+              電子情報通信学会技術研究報告, OIS-2006-47, pp.7-12（2006）</li>
+            <li><span>[7-44]:</span>知加良 盛, <u>関 良明</u>, 中原 慎一, 山崎 哲朗, 櫛田 達也, 中村 伊智三, 金井 敦：ID情報流通サービスとセキュリティの考察,
+              電子情報通信学会技術研究報告, OIS-2006-09, pp.49-54（2006）</li>
+            <li><span>[7-45]:</span><u>関 良明</u>：RFIDを用いた遠隔制御手法：ID-linkerの検討, 電子情報通信学会技術研究報告, OIS-2006-01, pp.1-6（2006）
+            </li>
+            <li><span>[7-46]:</span>山越 公洋, <u>関 良明</u>：DHTをベースとした一括更新可能な複数名前解決方式に関する一検討, 情報処理学会第68回全国大会講演論文集, 6E-8,
+              pp.3_361-362（2006）</li>
+            <li><span>[7-47]:</span>山崎 哲朗, 知加良 盛, <u>関 良明</u>, 中原 慎一：ICタグを用いた進入通知システムに関する一考察, 電子情報通信学会総合大会講演論文集,
+              B-7-176, p.272（2006）</li>
+            <li><span>[7-48]:</span><u>関 良明</u>：RFIDを用いた遠隔制御手法：ID-linkerの提案, 情報処理学会GNワークショップ2005（2005）</li>
+            <li><span>[7-49]:</span>濱田 康宏, 横田 智久, 長澤 博一, <u>関 良明</u>：地域Eコマース向け自宅から目的地までの地図表示システム,
+              情報処理学会第63回（平成13年後期）全国大会講演論文集, 4T-6, pp.4_261-262（2001）</li>
+            <li><span>[7-50]:</span>横田 智久, 濱田 康宏, 長澤 博一, <u>関 良明</u>：商品連携によるレコメンデ－ション効率の考察, 電子情報通信学会ソサイエティ大会講演論文集, p.78,
+              D-9-9（2001）</li>
+            <li><span>[7-51]:</span>濱田 康宏, 横田 智久, <u>関 良明</u>：商品連携のためのハイパーリンク自動生成実装方式の検討, 電子情報通信学会技術研究報告, OFS-2001-4,
+              pp.19-24（2001）</li>
+            <li><span>[7-52]:</span>濱田 康宏, 横田 智久, <u>関 良明</u>：レコメンデーション機能を有するサイバー商店街の開発, 第62回情報処理学会全国大会講演論文集,
+              5C-04（2001）</li>
+            <li><span>[7-53]:</span>横田 智久, 濱田 康宏, <u>関 良明</u>：レコメンデーション機能を有するサイバー商店街の提案, 情報処理学会第62回全国大会講演論文集,
+              1C-02（2001）</li>
+            <li><span>[7-54]:</span>若原 俊彦, <u>関 良明</u>, 小松 尚久：オフィスシステム研究の動向と展望, 電子情報通信学会技術研究報告, OFS-2000-70,
+              pp.1-6（2001）</li>
+            <li><span>[7-55]:</span>横田 智久, 濱田 康宏, <u>関 良明</u>：レコメンデーション機能を有するサイバー商店街の提案, 電子情報通信学会技術研究報告, OFS-2000-60,
+              pp.7-12（2001）</li>
+            <li><span>[7-56]:</span><u>関 良明</u>, 日高 哲雄, 斉藤 典明：コンテンツ連携技術を応用したディジタル展覧会システム, 電子情報通信学会技術研究報告, OFS-2000-13,
+              pp.29-34（2000）</li>
+            <li><span>[7-57]:</span>日高 哲雄, 斉藤 典明, <u>関 良明</u>：コンテンツ連携技術を応用したディジタル展覧会の実現, 電子情報通信学会総合大会講演論文集, D-9-17,
+              p.141（2000）</li>
+            <li><span>[7-58]:</span>日高 哲雄, 斉藤 典明, 阿部 貴博, <u>関 良明</u>：電子図書館におけるコンテンツ流通の提案, 情報処理学会研究報告, Vol.1999, No.102,
+              1999-FI-056, pp.81-89（1999）</li>
+            <li><span>[7-59]:</span>荒金 陽助, <u>関 良明</u>：ドライビング環境適応型コミュニケーション・ナビゲータに関するユーザ動向調査と通信ＮＷ性能に関する考察,
+              情報処理学会DICOMOワークショップ, 6-A, pp.417-422（1999）</li>
+            <li><span>[7-60]:</span>日高 哲雄, 斉藤 典明, 阿部 貴博, <u>関 良明</u>：電子図書館におけるコンテンツ流通の提案, ディジタル図書館, No.16,
+              pp.60-68（1999）</li>
+            <li><span>[7-61]:</span>斉藤 典明, 日高 哲雄, 阿部 貴博, <u>関 良明</u>：コンテンツ流通とコンテンツ流通システムの提案, 情報処理学会研究報告, Vol.1999,
+              No.88, 1999-GN-033, pp.57-62（1999）</li>
+            <li><span>[7-62]:</span>爰川 知宏, 由比藤 光宏, 西野 正和, <u>関 良明</u>：ネットワーキングライブラリNetLibraの提案と評価, INFOSTAシンポジウム,
+              Vol.49, No.10, p.498（1999）</li>
+            <li><span>[7-63]:</span>日高 哲雄, 斉藤 典明, 阿部 貴博, <u>関 良明</u>：情報組織化によるコンテンツ流通システム：Net-X, 情報処理学会研究報告, Vol.1999,
+              No.40, 1999-GN-032, pp.5-10（1999）</li>
+            <li><span>[7-64]:</span>杉山 主税, 爰川 知宏, 斉藤 典明, <u>関 良明</u>：情報連携モジュールFly-fishingの機能概要と性能評価, 情報処理学会研究報告,
+              Vol.1999, No.7, 1999-GN-031, pp.1-6（1999）</li>
+            <li><span>[7-65]:</span>日高 哲雄, 斉藤 典明, <u>関 良明</u>：コンテンツ連携システムNet-Xの提案, 電子情報通信学会総合大会講演論文集, D-9-9, p.196（1999）
+            </li>
+            <li><span>[7-66]:</span>荒金 陽助, <u>関 良明</u>：ドライビング環境適応型通信選択方式を採用したDukas’98の提案, 情報処理学会DICOMOワークショップ, 7-B,
+              pp.507-514（1998）</li>
+            <li><span>[7-67]:</span>荒金 陽助, <u>関 良明</u>, 吉開 範章：ドライビング環境に適応した通信選択方式の検討, 電子情報通信学会総合大会講演論文集, A-15-18,
+              p.351（1998）</li>
+            <li><span>[7-68]:</span>荒金 陽助, <u>関 良明</u>：ドライビング環境適応型コミュニケーション・ナビゲータの構築, 電子情報通信学会ソサイエティ大会講演論文集, SAD-3-5,
+              pp.66-67（1998）</li>
+            <li><span>[7-69]:</span>日高 哲雄, <u>関 良明</u>：個人活動を考慮したディジタルライブラリのシステム構成, 電子情報通信学会ソサイエティ大会講演論文集, D-9-22,
+              p.104（1998）</li>
+            <li><span>[7-70]:</span>萱野 忠, 西野 正和, <u>関 良明</u>, 爰川 知宏：分散ネットワーキング電子図書館NetLibraの提案,
+              情報処理学会第57回（平成10年後期）全国大会講演論文集, 3-1, pp.1-2（1998）</li>
+            <li><span>[7-71]:</span>日高 哲雄, <u>関 良明</u>：ユーザ特性を考慮した情報流通方式の検討, 情報処理学会第56回（平成10年前期）全国大会講演論文集, 2Y-6,
+              pp.85-86（1998）</li>
+            <li><span>[7-72]:</span><u>関 良明</u>：コミュニケーション・ナビゲータにおける情報構造化手法の検討, 情報処理学会研究報告, Vol.1997, No.105,
+              1997-GN-025, pp.1-6（1997）</li>
+            <li><span>[7-73]:</span><u>関 良明</u>, 若原 俊彦：コミュニケーション・ナビゲータの提案, 電子情報通信学会技術研究報告, OFS-97-37, pp.25-30（1997）
+            </li>
+            <li><span>[7-74]:</span><u>関 良明</u>：オフィスにおける知識共有に関する考察, 電子情報通信学会春季大会講演論文集, D-9（1994）</li>
+            <li><span>[7-75]:</span>久保田 浩司, <u>関 良明</u>：DFRを用いた文書蓄積・検索システムの試作と評価, 電子情報通信学会技術研究報告, IN-92-117（1993）</li>
+            <li><span>[7-76]:</span>藤木 直人, <u>関 良明</u>：マルチグループにおけるノウハウ共有の分析, 電子情報通信学会技術研究報告, OFS-93-18, pp.1-8（1993）
+            </li>
+            <li><span>[7-77]:</span>山上 俊彦, <u>関 良明</u>：Knowledge-awareness指向のノウハウ伝播支援環境：CATFISH, 情報処理学会研究報告, Vol.1993,
+              No.12, 1993-DPS-059, pp.57-64（1993）</li>
+            <li><span>[7-78]:</span><u>関 良明</u>, 藤木 直人：分散型ノウハウ蓄積システムGoldFISHの検討, 情報処理学会研究報告, Vol.1993, No.75,
+              1993-GN-003, pp.17-24（1993）</li>
+            <li><span>[7-79]:</span><u>関 良明</u>：ノウハウ蓄積システムFISHの蓄積情報分析, 電子情報通信学会技術研究報告, OFS-93-2, pp.7-12（1993）</li>
+            <li><span>[7-80]:</span>藤木 直人, <u>関 良明</u>：マルチグループ間のノウハウ共有に関する考察, 電子情報通信学会秋季全国大会講演論文集, D-152（1993）</li>
+            <li><span>[7-81]:</span><u>関 良明</u>：分散環境におけるノウハウ蓄積方式の提案, 電子情報通信学会春季大会講演論文集, D-222（1993）</li>
+            <li><span>[7-82]:</span><u>関 良明</u>：ノウハウ蓄積システムFISHの利用動向分析, 電子情報通信学会技術研究報告, OSF-92-7（1992）</li>
+            <li><span>[7-83]:</span>山上 俊彦, <u>関 良明</u>：協調行動過程に着目したノウハウ支援の拡張の検討, 情報処理学会研究報告, Vol.1991, No.6,
+              1991-DPS-053, pp.23-30（1992）</li>
+            <li><span>[7-84]:</span>久保田 浩司, <u>関 良明</u>, 伊藤 光恭, 梶原 清彦：DFRへのオブジェクト指向設計の適用, 電子情報通信学会技術研究報告, OS-91-62（1992）
+            </li>
+            <li><span>[7-85]:</span><u>関 良明</u>, 久保田 浩司, 佐藤 基, 氏家 正美：ペーパレスオフィスをめざす通信システム構築に関する一検討, 電子情報通信学会技術研究報告,
+              OS-91-61（1992）</li>
+            <li><span>[7-86]:</span><u>関 良明</u>：マルチグループ対応型ノウハウ蓄積システムG-FISHの検討, 電子情報通信学会秋季大会講演論文集, D-103（1992）</li>
+            <li><span>[7-87]:</span><u>関 良明</u>, 久保田 浩司：DFRにおける仮想ディレクトリの検討, 電子情報通信学会春季大会講演論文集, D-230（1992）</li>
+            <li><span>[7-88]:</span><u>関 良明</u>：ノウハウ蓄積支援システムの構築, 電子情報通信学会技術研究報告, OS-91-4（1991）</li>
+            <li><span>[7-89]:</span><u>関 良明</u>：非定型情報の動的リンク方式, 情報処理学会第43回全国大会講演論文集, 1M-1（1991）</li>
+            <li><span>[7-90]:</span><u>関 良明</u>, 清水 明宏：ノウハウ蓄積支援システムの検討, 電子情報通信学会技術研究報告, OS-89-49（1990）</li>
+            <li><span>[7-91]:</span><u>関 良明</u>, 清水 明宏：オーダ管理方式の提案, 電子情報通信学会秋季全国大会講演論文集, D-178（1990）</li>
+            <li><span>[7-92]:</span><u>関 良明</u>, 清水 明宏：ノウハウ蓄積支援システムの提案, 情報処理学会第39回（平成元年後期）全国大会講演論文集, 7H-2,
+              pp.2205-2206（1989）</li>
+            <li><span>[7-93]:</span>久保田 浩司, <u>関 良明</u>, 清水 明宏：会議設定支援方式の提案, 電子情報通信学会春季全国大会講演論文集（1989）</li>
+            <li><span>[7-94]:</span><u>関 良明</u>, 山上 俊彦：クリアリングにおける関係表現の検討, 情報処理学会第37回（昭和63年後期）全国大会講演論文集, 5H-10,
+              pp.1330-1331（1988）</li>
+            <li><span>[7-95]:</span><u>関 良明</u>, 山上 俊彦, 木下 研作：クリアリングサーバにおける知的ネーム管理機構の検討, 昭和63年電子情報通信学会春季全国大会講演論文集,
+              D-48（1988）</li>
+            <li><span>[7-96]:</span><u>関 良明</u>：非接触磁気結合トランスの特性, 昭和61年度電子通信学会通信部門全国大会講演論文集, 27（1986）．</li>
+          </ol>
+          <h5>予稿なし研究発表 0件</h5>
+          <ol class="num3">
+            <li><span></span>なし</li>
+          </ol>
+          <h5>その他 24件</h5>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />総説・解説:1件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span><u>関 良明</u>：特集「社会活動に協調する技術とネットワークサービス」の編集にあたって, 情報処理学会論文誌, Vol.55, No.1,
+              p.115（2014.01.15）</li>
+            <li><span>[2]:</span><u>Yoshiaki Seki</u>: Editor’s Message to Special Issue on Technologies and Network
+              Services to Cooperate with Social Activities, Journal of Information Processing, Vol.22, No.1,
+              p.18（2014.01.15）</li>
+            <li><span>[3]:</span>山上 俊彦, <u>関 良明</u>：特集「社会システムと向き合うネットワークサービス」の編集にあたって, 情報処理学会論文誌, Vol.48, No.1,
+              p.1（2007.01.15）</li>
+          </ol>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />研究機関の雑誌:8件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>大久保 美也子, 神田 雅透, <u>関 良明</u>, 川村 亨：ICT社会基盤のセキュリティを支える暗号技術：暗号危殆化対策に関する社内外の取組み,
+              NTT技術ジャーナル, Vol.22, No.2, pp.33-37（2010.02.01）</li>
+            <li><span>[2]:</span>杉山 主税, 由比藤 光宏, <u>関 良明</u>：階層型検索を特徴とした分散アーカイブシステム, NTT技術ジャーナル, Vol.12, No.5,
+              pp.63-66（2000.05.01）</li>
+            <li><span>[3]:</span>西野 正和, 大森 伸宏, <u>関 良明</u>：次世代電子映像館実験システムの実現に向けて：マルチメディア・アーカイブシステムNetMars, NTT技術ジャーナル,
+              Vol.11, No.12, pp.91-94（1999.12.01）</li>
+            <li><span>[4]:</span><u>関 良明</u>, 爰川 知宏：ネットワークが巨大なマルチメディア・アーカイブになる：次世代電子図書館システムNetLibra, NTT技術ジャーナル, Vol.11,
+              No.6, pp.60-62（1999.06.01）</li>
+            <li><span>[5]:</span>爰川 知宏, <u>関 良明</u>, 由比藤 光宏, 西野 正和：次世代電子図書館システムNetLibra, NTT R&D , Vol.48, No.6,
+              pp.520-525（1999.06.01）</li>
+            <li><span>[6]:</span>Tomohiro Kokogawa, Mitsuhiro Yuitou, Masakazu Nishino, and <u>Yoshiaki Seki</u>: Toward
+              Networking Library Systems: NetLibra, NTT Review, Vol.11, No.6, pp.61-64 (1999.06.01)</li>
+            <li><span>[7]:</span>大和田 一男, 佐藤 剛, <u>関 良明</u>, 丹原 雅夫：イントラネットとECを推進するクイックソリューション, NTT技術ジャーナル, Vol.9, No.4,
+              pp.68-72（1997.04.01）</li>
+            <li><span>[8]:</span>氏家 正美, 久保田 浩司, <u>関 良明</u>, 笠原 健一, 塗 真一, 佐藤 基：国際標準に準拠した電子情報庫システム, NTT R&D, Vol.43,
+              No.1, pp.75-84（1994.01.01）</li>
+          </ol>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />特許:15件</h5>
+          <ol class="num2">
+            <li><span>[P-1]:</span>佐藤 亮太, 平田 真一, 吉田 勝彦, <u>関 良明</u>：確認装置, 確認方法及び確認プログラム, 特許5112498（2012.05.31公開）</li>
+            <li><span>[P-2]:</span>櫛田 達也, 知加良 盛, 山崎 哲朗, <u>関 良明</u>：アクセスポイントの正当性を確認する通信システム, 通信方法, 及び認証用情報提供サーバ,
+              特願4717737（2008.01.31公開）</li>
+            <li><span>[P-3]:</span>櫛田 達也, 知加良 盛, 山崎 哲朗, <u>関 良明</u>：相互認証システム及び方法並びにプログラム, 特許4663596（2008.01.31公開）</li>
+            <li><span>[P-4]:</span>櫛田 達也, 知加良 盛, 山崎 哲朗, <u>関 良明</u>：電子鍵開閉システム及び方法, 特許4699299（2008.01.17公開）</li>
+            <li><span>[P-5]:</span>山越 公洋, 知加良 盛, <u>関 良明</u>：複数公開鍵の証明書を発行及び検証するシステム, 並びに, 複数公開鍵の証明書を発行及び検証する方法,
+              特許4846464（2008.01.10公開）</li>
+            <li><span>[P-6]:</span>中西 弘毅, <u>関 良明</u>, 中原 慎一：分散データの管理方法および管理システム, 特許4554564（2008.01.10公開）</li>
+            <li><span>[P-7]:</span><u>関 良明</u>, 知加良 盛：遠隔操作方法および遠隔操作システム, 特許4781910（2007.12.06公開）</li>
+            <li><span>[P-8]:</span><u>関 良明</u>, 知加良 盛, 中原 慎一：ＲＦＩＤを用いた遠隔操作方法及びサーバ装置, 特許4278649（2007.05.17公開）</li>
+            <li><span>[P-9]:</span>近藤 利彦, <u>関 良明</u>, 清水 雅史：双方向無線装置の識別コード秘匿化方法および無線通信システム, 特許4387926（2006.05.25公開）</li>
+          </ol>
+          <ol class="num3">
+            <li><span>[P-10]:</span>近藤 利彦, <u>関 良明</u>, 清水 雅史：無線タグの識別コード秘匿化方法, 特許4268102（2006.03.09公開）</li>
+            <li><span>[P-11]:</span>荒金 陽助, <u>関 良明</u>, 吉開 範章：ドライバー状況依存コミュニケーション装置及びその方法, 特許3477057（1999.07.02公開）</li>
+            <li><span>[P-12]:</span><u>関 良明</u>：情報共有装置, 特許3161489（1994.08.23公開）</li>
+            <li><span>[P-13]:</span><u>関 良明</u>：情報リンク生成方法, 特許2925042（1993.03.12公開）</li>
+            <li><span>[P-14]:</span><u>関 良明</u>：閲覧管理装置, 特許3178476（1992.11.19公開）</li>
+            <li><span>[P-15]:</span><u>関 良明</u>, 清水 明宏：ノウハウ蓄積支援装置, 特許2853206（1991.05.21公開）</li>
+          </ol>
+          <h5>参考 43件</h5>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />報道発表:5件</h5>
+          <ol class="num1">
+            <li><span>[1]:</span>ソーシャルメディア利用92% スマホ所持の中高生調査, 読売新聞, p.19(2013.03.07)</li>
+            <li><span>[2]:</span>災害ダイヤル 利用1割 震災当日 仙台・盛岡400人調査 東大など, 読売新聞, 夕刊, p.14(2011.12.17)</li>
+            <li><span>[3]:</span>電子図書館 ネットで結合 NTT東西2社, 日経産業新聞, p.3(1999.08.10)</li>
+            <li><span>[4]:</span>ネットワークがマルチメディア・アーカイブの泉となる「ネットワーキング・ライブラリ・システムNetLibra」, NTTぷらざ, Vol.51, No.2,
+              pp.10-11(1999.02.15)</li>
+            <li><span>[5]:</span>NTT オフィスの生産性を高める「ノウハウ蓄積システム」を開発へ, 日経コミュニケーション, No.78, pp.66-67(1990.03.12)</li>
+          </ol>
+          <h5><img src="image/list_mark.png" width="20" height="20" alt="" />出願特許:30件</h5>
+          <ol class="num2">
+            <li><span>[p-1]:</span>櫛田 達也, 知加良 盛, 山崎 哲朗, <u>関 良明</u>：無線ＬＡＮにおける認証システムおよび認証方法, 認証サーバ, ならびに認証プログラム,
+              特願2006-191447（2006.07.12出願）</li>
+            <li><span>[p-2]:</span>山崎 哲朗, 中原 慎一, <u>関 良明</u>, 知加良 盛：ＲＦＩＤを利用した進入通知システム及び方法, 特願2005- 314125（2005.10.28出願）
+            </li>
+            <li><span>[p-3]:</span>櫛田 達也, <u>関 良明</u>, 知加良 盛：センサデータ振分配信システムおよびその方法, 特願2005- 314121（2005.10.28出願）</li>
+            <li><span>[p-4]:</span>山越 公洋, 知加良 盛, <u>関 良明</u>：無線タグＩＤ情報転送先アドレス解決システムおよび方法, 特願2005- 308811（2005.10.28出願）
+            </li>
+            <li><span>[p-5]:</span><u>関 良明</u>, 長田 孝彦, 中島 亮彦：ＩＤ情報優先配信制御方法およびＩＤ情報優先配信システム, 特願2005-177181（2005.06.17出願）
+            </li>
+            <li><span>[p-6]:</span>濱田 康宏, 横田 智久, <u>関 良明</u>：ユーザ情報取得装置, 並びにコンピュータ読み取り可能な記憶媒体, プログラム,
+              特願2001-024875（2001.01.31出願）</li>
+            <li><span>[p-7]:</span>濱田 康宏, 横田 智久, <u>関 良明</u>：電子モールシステム, 特願2000-403415（2000.12.28出願）</li>
+            <li><span>[p-8]:</span>斉藤 典明, 河野 聡子, <u>関 良明</u>, 阿部 貴博：コンテンツ検索方法,
+              コンテンツ検索システムおよびコンテンツ検索プログラムが記録されたコンピュータ読み取り可能な記録媒体, 特願2000-241722（2000.08.09出願）</li>
+            <li><span>[p-9]:</span>濱田 康宏, 横田 智久, <u>関 良明</u>：登録情報管理システム, 登録情報管理方法及びその記録媒体, 特願2000-211793（2000.07.12出願）
+            </li>
+          </ol>
+          <ol class="num3">
+            <li><span>[p-10]:</span><u>関 良明</u>：コミュニティプラットフォームシステム, 特願2000-170939（2000.06.07出願）</li>
+            <li><span>[p-11]:</span><u>関 良明</u>：書庫システム, 特願2000-139035（2000.05.11出願）</li>
+            <li><span>[p-12]:</span><u>関 良明</u>, 西山 茂：コンテンツ連携方法及びその装置, 特願2000-43269（2000.02.21出願）</li>
+            <li><span>[p-13]:</span>大森 伸宏, <u>関 良明</u>, 日高 哲雄：圧縮動画像の情報追記方法及び動画像圧縮装置, 特願平11-56367（1999.03.04出願）</li>
+            <li><span>[p-14]:</span>荒金 陽助, <u>関 良明</u>, 吉開 範章：ドライビング環境適応型コミュニケーション制御装置, 特願平10-328409（1998.11.18出願）</li>
+            <li><span>[p-15]:</span><u>関 良明</u>：質問作成・提示支援方法及びその装置, 特願平9-287226（1997.10.20出願）</li>
+            <li><span>[p-16]:</span><u>関 良明</u>, 若原 俊彦：質問理解支援方法及びその装置, 特願平9-206396（1997.07.31出願）</li>
+            <li><span>[p-17]:</span><u>関 良明</u>, 藤木 直人：分散サーバ装置, 特願平5-210095（1993.08.25出願）</li>
+            <li><span>[p-18]:</span>藤木 直人, <u>関 良明</u>：ファイル管理装置, 特願平4-343659（1992.12.24出願）</li>
+            <li><span>[p-19]:</span><u>関 良明</u>：オーダ管理装置, 特願平3-180632（1991.07.22出願）</li>
+            <li><span>[p-20]:</span><u>関 良明</u>：仮想ディレクトリ装置, 特願平3-137412（1991.06.10出願）</li>
+            <li><span>[p-21]:</span><u>関 良明</u>：ソフトＦＡＸ受信装置, 特願平2-412986（1990.12.25出願）</li>
+            <li><span>[p-22]:</span><u>関 良明</u>, 清水 明宏：文書格納位置画像を利用した検索装置, 特願平2-123667（1990.05.14出願）</li>
+            <li><span>[p-23]:</span><u>関 良明</u>：天地ディスプレイ装置, 特願平2-75826（1990.03.26出願）</li>
+            <li><span>[p-24]:</span><u>関 良明</u>：在席状況通知装置, 特願平1-268820（1989.10.16出願）</li>
+            <li><span>[p-25]:</span><u>関 良明</u>：メッセージ受信装置, 特願昭63-301616（1988.11.29出願）</li>
+            <li><span>[p-26]:</span><u>関 良明</u>, 山上 俊彦：メッセージ送信装置, 特願昭63-301615（1988.11.29出願）</li>
+            <li><span>[p-27]:</span><u>関 良明</u>, 山上 俊彦, 恒川 健司：メッセージ受信装置, 特願昭63-249691（1988.10.03出願）</li>
+            <li><span>[p-28]:</span>山上 俊彦, <u>関 良明</u>, 坂口 勝章：手動式位置入力装置, 特願昭63-195149（1988.08.03出願）</li>
+            <li><span>[p-29]:</span><u>関 良明</u>：クリアリング方式, 特願昭63-104634（1988.04.27出願）</li>
+            <li><span>[p-30]:</span><u>関 良明</u>：知的操作支援方式, 特願昭61-211222（1986.09.06出願）</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+  </div>
+  <!-- InstanceBeginEditable name="footer" -->
+  <div id="footer">
+    <div id="log">Ver.5.0.1 2019年11月26日 関研究室広報担当作成</div>
+    <h6>東京都市大学 メディア情報学部<span><br>
+      </span> 情報システム学科 関良明研究室（情報セキュリティ）</h6>
+    <p>Copyright &copy; 東京都市大学 関研究室 2014 All Rights Reserved.</p>
+  </div>
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript">
+    $("#nav ul li").hover(function () {
+      $("ul:not(:animated)", this).slideDown("normal")
+    }, function () {
+      $("ul", this).slideUp("fast");
+    });
+    $("#nav_smart ul li").hover(function () {
+      $("ul:not(:animated)", this).slideDown("normal")
+    }, function () {
+      $("ul", this).slideUp("fast");
+    });
+  </script>
+</body>
+<!-- InstanceEnd -->
+
+</html>

@@ -1,0 +1,582 @@
+@charset "utf-8";
+* {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+body, html {
+	height: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+body {
+	background-color: #F3F3EF;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	min-width: 768px;
+}
+#wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: relative;
+	height: auto !important; /*IE6対策*/
+	height: 100%; /*IE6対策*/
+	min-height: 100%;
+}
+#mainImage {
+	height: 439px;
+	width: 100%;
+	background-image: url(image/main_image.png);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+}
+#header {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1200px;
+	min-width: 768px;
+	padding-bottom: 18px;
+	display: box;
+	height: 120px;
+}
+h1 {
+	margin-top: 13px;
+	width: 307px;
+	float: left;
+	height: 114px;
+
+}
+h2 {
+	font-size: 15pt;
+	text-align: right;
+	padding-top: 66px;
+	max-width: 893px;
+	min-width: 461px;
+	position: relative;
+	float: right;
+}
+#nav_line {
+	width: 100%;
+	height: 11px;
+	background-repeat: repeat-x;
+	background-image: url(image/blueline.gif);
+}
+#nav ul {
+	list-style-image: none;
+	list-style-type: none;
+	display: table;
+	table-layout: fixed;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+#nav ul li ul {
+	display: none;
+	border-bottom-width: thin;
+}
+#nav ul li {
+	display: table-cell;
+	position: relative;
+}
+#nav ul li ul li {
+	display: list-item;
+	width: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#nav ul li img {
+	width: 100%;
+	height: auto;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	max-width: 250px;
+	max-height: 48px;
+}
+#nav {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+h3 {
+	display: table;
+	text-align: center;
+	font-size: xx-large;
+	margin-top: 30px;
+	margin-bottom: 43px;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	padding-top: 13px;
+	padding-bottom: 25px;
+	white-space: nowrap;
+	text-shadow: 0px 0px;
+	padding-right: 13px;
+	padding-left: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F3F3EF;
+}
+/*
+h3:after, h3:before {
+  content: '';
+  display: table-cell;
+  width: 50%;
+  background: -webkit-linear-gradient(transparent 50%, currentColor 50%, currentColor -webkit-calc(50% + 1px), transparent -webkit-calc(50% + 1px));
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, currentColor), color-stop(currentColor calc(50% + 1px)), to(transparent calc(50% + 1px)));
+  background: linear-gradient(transparent 50%, currentColor 50%, currentColor calc(50% + 1px), transparent calc(50% + 1px));
+  -webkit-background-clip: padding;
+  background-clip: padding;
+}
+h3:after {
+  border-left: 1em solid transparent;
+}
+h3:before {
+  border-right: 1em solid transparent;
+}*/
+#Contents {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 17px;
+	padding-bottom: 63px;
+	display: box;
+	max-width: 1200px;
+	min-width: 768px;
+	margin-bottom: -81px;
+	height: auto;
+}
+.text ul li {
+	list-style-type: none;
+}
+#footer {
+	clear: both;
+	bottom: 0px;
+	width: 100%;
+	height: 63px;
+	margin-top: 55px;
+	padding-top: 45px;
+}
+h6 {
+	text-align: center;
+	background-image: url(image/footer.gif);
+	background-repeat: repeat-x;
+	color: #FFFFFF;
+	height: 39px;
+	line-height: 42px;
+	font-size: 15px;
+	position: relative;
+}
+#footer p {
+	text-align: center;
+	background-image: url(image/footer_shadow.gif);
+	background-repeat: repeat-x;
+	color: #000000;
+	height: 23px;
+	line-height: 19px;
+	font-size: 10px;
+}
+#nav_smart {
+	display: none;
+}
+#nav ul li ul li img {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-collapse: collapse;
+	position: relative;
+	z-index: 3;
+}
+#nav_contents {
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 768px;
+	max-width: 1200px;
+	max-height: 48px;
+	min-height: 38px;
+}
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	min-width: 768px;
+	max-width: 1100px;
+	text-align: justify;
+	font-size: 21px;
+	line-height: 28px;
+    background-image: url(image/act/act_dot.gif);
+    background-repeat: repeat-y;
+    background-position: 4%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#backcolor01 .content {
+    background-image: url(image/act/act_dot_2.gif);
+    background-repeat: repeat-y;
+    background-position: 4%;
+}
+.content h5 {
+	text-align: left;
+	font-size: 26px;
+	margin-top: 14px;
+	margin-bottom: 22px;
+	letter-spacing: 1px;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	text-shadow: 0px 0;
+}
+.content ol {
+	margin-top: 7px;
+	margin-left: 53px;
+}
+.content ol li {
+	margin-top: 5px;
+	margin-left: -14px;
+	list-style-position: outside;
+	line-height: normal;
+
+
+}
+.content h4 {
+	color: #C68700;
+	text-align: left;
+	text-shadow: 0px 0;
+	font-size: 40px;
+    margin-bottom: 7px;
+}
+
+/* 背景色設定　
+id="backcolor☆"で使われる　☆のところは01～04の数字のidが使用されているところで反映 
+
+
+*/
+
+/*  
+#backcolor01
+適用場所
+__.html
+activity2014~2021.html
+achiev_list.html
+career.html
+member.html
+message.html
+successive-research.html
+
+
+#backcolor02
+適用場所
+__.html
+activity2014~2019.html
+activity2021.html
+achiev_list.html
+career.html
+message.html
+
+#backcolor03
+適用場所
+__.html
+activity2014~2021.html
+achiev_list.html
+career.html
+message.html
+
+#backcolor04
+__.html
+activity2014~2021.html
+achiev_list.html
+career.html
+member_graduate 1.html
+member_graduate.html
+member.html
+*/
+#backcolor01 {
+	background-color: #F1F1E2;
+}
+#backcolor02 {
+	background-color: #FBFBF2;
+}
+#backcolor03 {
+	background-color: #F0F0DD;
+}
+#backcolor04 {
+	background-color: #F4F4E8;
+}
+span {
+	display: none;
+
+}
+/* num1 */
+ol.num1 { 
+    margin-bottom: 1.4em; 
+	margin-left: 2.5em;
+	margin-top: -18px; 
+}
+ol.num1 li {
+	position: relative;
+	list-style: none;
+	line-height: 1.4;
+	margin-bottom: 0.3em;
+	padding-bottom: 16px;
+}
+ol.num1 li span {
+	position: absolute;
+	top: 0;
+	display: inherit;
+	left: -1.7em;
+}
+/* num2 */
+ol.num2 {
+	margin-bottom: 1.4em;
+	margin-left: 2.5em;
+	margin-top: -18px;
+}
+ol.num2 li {
+	position: relative;
+	list-style: none;
+	line-height: 1.4;
+	margin-bottom: 0.3em;
+	padding-left: 25px;
+	padding-bottom: 16px;
+}
+ol.num2 li span {
+	position: absolute;
+	top: 0;
+	display: inherit;
+	left: -1.7em;
+}
+/* num3 */
+ol.num3 {
+	margin-bottom: 1.4em;
+	margin-left: 2.5em;
+	margin-top: -18px;
+}
+ol.num3 li {
+	position: relative;
+	list-style: none;
+	line-height: 1.4;
+	margin-bottom: 0.3em;
+	padding-left: 35px;
+	padding-bottom: 16px;
+}
+ol.num3 li span {
+	position: absolute;
+	top: 0;
+	display: inherit;
+	left: -1.7em;
+}
+/* num4 */
+ol.num4 {
+	margin-bottom: 1.4em;
+	margin-left: 2.5em;
+	margin-top: -22px;
+}
+ol.num4 li {
+	position: relative;
+	list-style: none;
+	line-height: 1.4;
+	margin-bottom: 0.3em;
+	padding-left: 93px;
+	padding-bottom: 16px;
+	padding-top: 0px;
+}
+ol.num4 li span {
+	position: absolute;
+	top: 0;
+	display: inherit;
+	left: -1.7em;
+}
+/* num5 */
+ol.num5 {
+	margin-bottom: 1.4em;
+	margin-left: 2.5em;
+	margin-top: -35px;
+	padding-left: 42px;
+}
+ol.num5 li {
+	position: relative;
+	list-style: none;
+	line-height: 1.4;
+	margin-bottom: 0.3em;
+	padding-left: 93px;
+	padding-bottom: 16px;
+	margin-top: -15px;
+}
+ol.num5 li span {
+	position: absolute;
+	top: 0;
+	display: inherit;
+	left: -1.7em;
+}
+* html ol.num1 li span { top: -0.1em; } /* for win ie6 */
+*:first-child+html ol.num5 li span { top: -0.1em; } /* for win ie7 */
+* html ol.num2 li span { top: -0.1em; } /* for win ie6 */
+*:first-child+html ol.num5 li span { top: -0.1em; } /* for win ie7 */
+* html ol.num3 li span { top: -0.1em; } /* for win ie6 */
+*:first-child+html ol.num5 li span { top: -0.1em; } /* for win ie7 */
+* html ol.num4 li span { top: -0.1em; } /* for win ie6 */
+*:first-child+html ol.num5 li span { top: -0.1em; } /* for win ie7 */
+* html ol.num5 li span { top: -0.1em; } /* for win ie6 */
+*:first-child+html ol.num5 li span { top: -0.1em; } /* for win ie7 */
+blue {
+	color: #001DFF;
+}
+#degree {
+	margin-left: 40px;
+	margin-top: 20px;
+}
+#career_text {
+	margin-top: 44px;
+	margin-left: 40px;
+}
+#histry_text {
+	margin-top: 41px;
+	margin-left: 40px;
+}
+#prize_text {
+	margin-top: 44px;
+	margin-left: 40px;
+}
+h3 {
+	text-align: center;
+	margin-top: 20px;
+	z-index: 2;
+	position: relative;
+}
+h3+p {
+	border-top: solid 1px black;
+	padding-top: 40px;
+	margin-top: -86px;
+	z-index: 1;
+}
+#contents {
+	margin-top: -2px;
+}
+#log {
+	text-align: right;
+}
+.content img {
+    margin-left: 2%;
+}
+
+
+/* 活動報告の月の枠 */
+.text_container{
+    margin-left: 8%;
+    padding: 10px;
+    padding-bottom: 0px;
+    max-width: 90%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex; 
+}
+/* 活動報告のテキスト（全体） */
+.adjust_text{
+
+}
+
+
+
+#gasshuku_teximg {
+    margin-left: 8%;
+    padding: 10px;
+    padding-bottom: 0px;
+    max-width: 90%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex; 
+}
+
+#gasshuku_text1 {
+    min-width: 384px;
+    max-width: 816px;
+}
+
+.act_image img {
+    min-width: 180px;
+    height: auto;
+    width: 100%;
+}
+
+#gasshuku_text2 {
+    max-width: 90%;
+    margin-left: 8%;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.visit_text {
+    margin-left: 8%;
+    padding: 10px;
+    max-width: 90%;
+}
+
+h4 img {
+    margin-right: 5px;
+    margin-bottom: -10px;
+}
+
+#zatsuzemi_teximg {
+    margin-left: 8%;
+    padding: 10px;
+    padding-bottom: 0px;
+    max-width: 90%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex; 
+}
+
+#zatsuzemi_text1 {
+    min-width: 384px;
+    max-width: 816px;
+}
+
+#zatsuzemi_text2 {
+    max-width: 90%;
+    margin-left: 8%;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.writer {
+    text-align: right;
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+#tyuyaku {
+    text-align: right;
+    margin-right: 15px;
+    margin-top: -15px;
+    font-size: 18px;
+}
+
+#zirei_text {
+    margin-left: 8%;
+    padding: 10px;
+    max-width: 90%;
+}

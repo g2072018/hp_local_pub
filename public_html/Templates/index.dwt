@@ -1,0 +1,156 @@
+﻿
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>関研究室のホームページ</title>
+<!-- TemplateEndEditable -->
+<link href="../jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="スタイルシート" -->
+<link media="only screen and (max-width: 767px) "href="../smartphone.css" type="text/css" rel="stylesheet" />
+<link media="screen and (min-width:768px)" href="../style.css" type="text/css" rel="stylesheet" />
+<!-- TemplateEndEditable -->
+<script src="../jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="../jQueryAssets/jquery-ui-1.9.2.button.custom.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="dist/respond.src.js"></script>
+<script src="dist/html5shiv.js"></script>
+<![endif]-->
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <h1><a href="../index.html"><img src="../image/logo.png" width="307" height="114" alt="" border="0"/></a></h1>
+    <h2>東京都市大学 メディア情報学部 情報システム学科<br>
+      関良明研究室（情報セキュリティ）</h2>
+  </div>
+  <div id="nav">
+    <div id="nav_line"><img src="../image/blueline.gif" width="0" height="0" alt=""/></div>
+    <div id="nav_contents">
+      <ul>
+        <li><img src="../image/nav_about_lab.png" width="250" height="48" alt=""/>
+          <ul>
+            <li><img src="../image/nav_in_pre.png" width="250" height="48" alt=""/></li>
+            <li><img src="../image/nav_in_pre.png" width="250" height="48" alt=""/></li>
+            <li><img src="../image/nav_in_pre.png" width="250" height="48" alt=""/></li>
+          </ul>
+        </li>
+        <li><img src="../image/nav_intro_prof.png" width="250" height="48" alt=""/>
+          <ul>
+            <li><a href="../message.html"><img src="../image/nav_msg_prof.png" width="250" height="48" alt="" border="0"/></a></li>
+            <li><a href="../achiev_list.html"><img src="../image/nav_achv_list.png" width="250" height="48" alt=""/></a></li>
+            <li><img src="../image/nav_in_pre.png" width="250" height="48" alt=""/></li>
+          </ul>
+        </li>
+        <li><img src="../image/nav_act_repo.png" width="250" height="48" alt=""/>
+          <ul>
+            <li><img src="../image/nav_in_pre.png" width="250" height="48" alt=""/></li>
+            <li><img src="../image/nav_in_pre.png" width="250" height="48" alt=""/></li>
+            <li><img src="../image/nav_in_pre.png" width="250" height="48" alt=""/></li>
+          </ul>
+        </li>
+        <li><img src="../image/nav_intro_memb.png" width="250" height="48" alt=""/>
+          <ul>
+            <li><img src="../image/nav_in_pre.png" width="250" height="48" alt=""/></li>
+            <li><img src="../image/nav_in_pre.png" width="250" height="48" alt=""/></li>
+            <li><img src="../image/nav_in_pre.png" width="250" height="48" alt=""/></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="nav_smart">
+    <div id="nav_line"><img src="../image/blueline.gif" width="0" height="0" alt=""/></div>
+    <ul>
+      <li><img src="../image/nav_about_lab_S.png" width="240" height="100" alt=""/>
+        <ul>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+        </ul>
+      </li>
+      <li><img src="../image/nav_intro_prof_S.png" width="240" height="100" alt=""/>
+        <ul>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+        </ul>
+      </li>
+      <li><img src="../image/nav_act_repo_S.png" width="240" height="100" alt=""/>
+        <ul>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+        </ul>
+      </li>
+      <li><img src="../image/nav_intro_memb_S.png" width="240" height="100" alt=""/>
+        <ul>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+          <li><img src="../image/nav_in_pre_S.png" width="240" height="100" alt=""/></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!-- TemplateBeginEditable name="コンテンツエリア" -->
+  <div id="mainImage"><img src="../image/main_image.png" width="0" height="0" alt""/></div>
+  <div id="mainImage_sp"><img src="../image/main_image_S.png" width="400" height="150" alt=""/></div>
+  <div id="Contents">
+    <div id="leftContents">
+      <div id="mainContents">
+        <h3>
+          <div id="backgroundBlue">『安全につながる』情報共有を目指して</div>
+        </h3>
+        <div class="text">コンピュータ・ネットワークの多様な発展、拡大とそれに伴う各種脅威の顕在化など、情報通信環境は変化し続けています。このような変革期において、社会活動の効率化を目指した情報共有サービスと、情報資産を守るための情報セキュリティは表裏一体関係にあります。私達関研究室は、「情報共有サービス」と「情報セキュリティ」を密接に結びつけ、セキュリティを考慮した情報共有システムの構築を目指し日々研究に取り組んでいます。</div>
+      </div>
+      <div id="changeLog">
+        <h3>
+          <div id="backgroundGray">更新履歴</div>
+        </h3>
+        <div class="text">
+          <ul>
+            <li>2014年6月4日　関研究室ホームページ開設</li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="subContents">
+      <h3>
+        <div id="backgroundGreen">準備中</div>
+      </h3>
+      <div id="box">準備中</div>
+    </div>
+  </div>
+  <!-- TemplateEndEditable --></div>
+
+<div id="footer">
+  <h6>東京都市大学 メディア情報学部<span><br></span> 情報システム学科 関良明研究室（情報セキュリティ）</h6>
+  <p>Copyright c東京都市大学 関研究室 2014 All Rights Reserved.</p>
+</div>
+<script type="text/javascript">
+$("#nav ul li").hover(function() {
+    $("ul:not(:animated)",this).slideDown("normal")
+}, function() {
+    $("ul",this).slideUp("fast");
+});
+$("#nav_smart ul li").hover(function() {
+    $("ul:not(:animated)",this).slideDown("normal")
+}, function() {
+    $("ul",this).slideUp("fast");
+});
+</script>
+</body>
+</html>
