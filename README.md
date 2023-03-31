@@ -147,12 +147,6 @@ Markdown形式の文章のプレビューを確認できるパッケージ
 - [爆速コーディングを実現！Emmetの使い方とVSCodeのおすすめ設定まとめ](https://webdesign-trends.net/entry/13588)
 
 - [VSCodeでMarkdownの改行をする](https://qiita.com/fuk101/items/0fea05c93e70195275c3)
-a
-a
-a
-a
-a
-a
-a
+
 
 
