@@ -105,3 +105,54 @@ nav_act_rep2022.png
 ![](https://i.imgur.com/P2edBSY.png)
 
 参考：Gitのブランチモデルについて - Qiita，https://qiita.com/y-okudera/items/0b57830d2f56d1d51692
+
+---
+## Visual Studio 拡張機能おすすめ
+- [Japanese Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja)  
+VSCodeの日本語パッケージ
+
+- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)  
+HTML，CSSのタグ補完をしてくれる．
+
+- [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)  
+PATHを入力する時にそのディレクトリの内容を表示してくれる．
+
+- [zenkaku](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku)  
+全角スペースがあると色付けしてくれる．
+
+- [CSS Peek](https://marketplace.visualstudio.com/itemdetails?itemName=pranaygp.vscode-css-peek)  
+HTMLのIDやClassから対応するCSSの内容が確認できる．
+
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)  
+いちいちHTMLを開かなくても自動更新してwebを表示してくれる．
+
+- [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)  
+タグの開始と終了を知らせる．
+
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)  
+タグ名変更時に対応する終了タグ名も同時に変更する．
+
+
+- [Markmap](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode)  
+Markdownで書かれている文章を項目ごとでマップとして作成してくれる．
+
+- [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)  
+コピーした画像を貼り付けられ，カレントディレクトリに画像を保存してくれる．（保存先は変更可能)
+
+- [GitHub Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)  
+Markdown形式の文章のプレビューを確認できるパッケージ
+
+
+## web知識おすすめサイト
+- [爆速コーディングを実現！Emmetの使い方とVSCodeのおすすめ設定まとめ](https://webdesign-trends.net/entry/13588)
+
+- [VSCodeでMarkdownの改行をする](https://qiita.com/fuk101/items/0fea05c93e70195275c3)
+a
+a
+a
+a
+a
+a
+a
+
+
