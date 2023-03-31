@@ -146,7 +146,22 @@ Markdown形式の文章のプレビューを確認できるパッケージ
 ## web知識おすすめサイト
 - [爆速コーディングを実現！Emmetの使い方とVSCodeのおすすめ設定まとめ](https://webdesign-trends.net/entry/13588)
 
-- [VSCodeでMarkdownの改行をする](https://qiita.com/fuk101/items/0fea05c93e70195275c3)
 
+
+
+### 関係ない情報
+MarkdownとかMarpとか今は必要ないけど割と便利な情報まとめ  
+- [【VS Code + Marp】Markdownから爆速・自由自在なデザインで、プレゼンスライドを作る](https://qiita.com/tomo_makes/items/aafae4021986553ae1d8)
+- [Kroki.io](https://kroki.io/)  
+PlantUML, Graphviz, Mermaidなどお馴染みの記法から、少しニッチなものまで、20以上の記法に対応する、オープンソースのレンダリングエンジン、Web APIサービス。
+
+- [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)  
+VSCodeでDraw.ioが使えるようになったらしい！ - Qiita
+お馴染みのSVGエディタ。VSCodeのプラグインで、オフラインエディタをVSCode画面内で扱える。またそこで保存したSVGを、そのままMarpスライド内で活用できる。
+
+- [Vega](https://vega.github.io/vega/)  
+データセットと、その描画方法をJSONで指定すると、綺麗なグラフを返してくれるVega。Draw.io同様、VSCodeプラグインがあり、生成したSVGを、Marpスライド内で活用できる。
+
+- [VSCodeでMarkdownの改行をする](https://qiita.com/fuk101/items/0fea05c93e70195275c3)
 
 
