@@ -175,3 +175,9 @@ VSCodeでDraw.ioが使えるようになったらしい！ - Qiita
 - [VSCodeでMarkdownの改行をする](https://qiita.com/fuk101/items/0fea05c93e70195275c3)
 
 
+## 進捗状況
+1. ./public_html/image/prof_image/  
+以下に`/graduated/`を作成し，その中に卒業生のプロフィール画像を格納した．
+
+![](2023-04-04-21-29-59.png)
+
