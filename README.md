@@ -14,6 +14,9 @@
 基本的にfeature/OO のブランチで編集を行いdevelopブランチに統合（マージ）する．  
 developブランチで一度完成版ができたらmainに統合する．
 
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)　　
+
 ### 変更事項
 - 活動報告　2022年度
 - メンバー紹介/在籍メンバー
