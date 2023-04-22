@@ -15,7 +15,7 @@
 developブランチで一度完成版ができたらmainに統合する．
 
 ## 言語
-[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)　　
+[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)  　　
 <img src="https://img.shields.io/badge/-GitHub-181717.svg?logo=github&style=flat">
 
 
