@@ -14,6 +14,38 @@
 基本的にfeature/OO のブランチで編集を行いdevelopブランチに統合（マージ）する．  
 developブランチで一度完成版ができたらmainに統合する．
 
+## 環境構築
+### git cloneした後にデフォルトブランチ以外をリモートから持ってくる方法
+
+1. 普通にクローンする
+2. mainブランチだけある(origin/developなどに格納されている)
+3. git switchでブランチを作成しつつ、start-entrypointにoriginの情報を入力する
+
+```bash:terminal
+# フォークしたリポジトリをクローンする
+git clone https://github.com/{ユーザ名}/{リポジトリ名}.git
+success!
+
+# 現在のブランチの確認を行う
+git branch
+*main
+
+# developブランチを作成し、origin/developをコピーし、そのままブランチを移動するコード
+git switch -c develop origin/develop
+success!
+
+# 再度ブランチの確認を行う
+git branch
+main
+*develop # developブランチが作成されており、移動されている!
+
+# リモートブランチの確認方法
+git branch -r
+origin/main
+origin/develop
+...
+```
+
 ## 言語
 [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)  　
 
