@@ -14,6 +14,42 @@
 基本的にfeature/OO のブランチで編集を行いdevelopブランチに統合（マージ）する．  
 developブランチで一度完成版ができたらmainに統合する．
 
+## 環境構築
+### デフォルトブランチ(main)以外をリモートから持ってくる方法
+
+1. 普通にクローンする
+2. mainブランチだけある(origin/developなどに格納されている)
+3. git switchでブランチを作成しつつ、start-entrypointにoriginの情報を入力する
+
+### 💡$が書いてあるコマンドは、ユーザが入力するコマンドです。
+
+```bash:terminal
+# git bash or terminal
+
+# フォークしたリポジトリをクローンする
+$ git clone https://github.com/{ユーザ名}/{リポジトリ名}.git
+success!
+
+# 現在のブランチの確認を行う
+$ git branch
+*main
+
+# developブランチを作成し、origin/developをコピーし、そのままブランチを移動するコード
+$ git switch -c develop origin/develop
+success!
+
+# 再度ブランチの確認を行う
+$ git branch
+main
+*develop --> developブランチが作成されており、移動されている!
+
+# リモートブランチの確認方法
+$ git branch -r
+origin/main
+origin/develop
+...
+```
+
 ## 言語
 [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)  　
 
@@ -29,7 +65,7 @@ developブランチで一度完成版ができたらmainに統合する．
 - topページの更新履歴に更新日及び更新内容を追加する
 #### 活動報告　2022年度
 2022年度の１年間の活動報告をまとめる．過去の活動報告を参考にすると良い．
-1. wordやテキストで文章を作成し責任者に報告する．
+1. wordやテキストで文章を作成し責任者に報告する． ✅
 2. 責任者の承認後，feature/activityブランチにてhtmlを編集する．
 3. 完成したらdevelopブランチにプルリクエストを送る．（プルリクエストを送る直前にページ下部の最終変更日及びバージョンを編集する．）
 4. プルリクエストが承認されたら終了．
