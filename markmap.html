@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.4"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"関研究室のホームページ","children":[{"type":"heading","depth":1,"payload":{"lines":[3,4]},"content":"開発情報","children":[{"type":"heading","depth":2,"payload":{"lines":[7,8]},"content":"変更事項","children":[{"type":"bullet_list","depth":3,"payload":{"lines":[8,14]},"content":"","children":[{"type":"list_item","depth":4,"payload":{"lines":[8,9]},"content":"活動報告　2022年度"},{"type":"list_item","depth":4,"payload":{"lines":[9,10]},"content":"メンバー紹介/在籍メンバー"},{"type":"list_item","depth":4,"payload":{"lines":[10,11]},"content":"メンバー紹介/OB＆OG"},{"type":"list_item","depth":4,"payload":{"lines":[11,12]},"content":"画像の追加"},{"type":"list_item","depth":4,"payload":{"lines":[12,13]},"content":"ヘッダーのプルダウンメニューで活動報告の2022年度画像の追加をすべてのページで行う"},{"type":"list_item","depth":4,"payload":{"lines":[13,14]},"content":"topページの更新履歴に更新日及び更新内容を追加する"}]},{"type":"heading","depth":3,"payload":{"lines":[14,15]},"content":"活動報告　2022年度","children":[{"type":"list_item","depth":4,"payload":{"lines":[16,17],"index":1},"content":"1. wordやテキストで文章を作成し責任者に報告する．"},{"type":"list_item","depth":4,"payload":{"lines":[17,18],"index":2},"content":"2. 責任者の承認後，feature/activityブランチにてhtmlを編集する．"},{"type":"list_item","depth":4,"payload":{"lines":[18,19],"index":3},"content":"3. 完成したらdevelopブランチにプルリクエストを送る．（プルリクエストを送る直前にページ下部の最終変更日及びバージョンを編集する．）"},{"type":"list_item","depth":4,"payload":{"lines":[19,20],"index":4},"content":"4. プルリクエストが承認されたら終了．"}]},{"type":"heading","depth":3,"payload":{"lines":[20,21]},"content":"メンバー紹介/在籍メンバー","children":[{"type":"bullet_list","depth":4,"payload":{"lines":[24,28]},"content":"","children":[{"type":"list_item","depth":5,"payload":{"lines":[24,25]},"content":"4年の項目に新４年の情報を追加する．"},{"type":"list_item","depth":5,"payload":{"lines":[25,26]},"content":"新3年加入時に「一言/やりたいこと」，プロフィール写真を集め3年の項目に追加する．"},{"type":"list_item","depth":5,"payload":{"lines":[26,27]},"content":"大学院生が2名となるためそこのレイアウトの編集を行う必要がある．大学院生の部分が現在左寄せとなっているので中央寄せとし，先生のデザインと同じようにする．"}]},{"type":"ordered_list","depth":4,"payload":{"lines":[28,33],"startIndex":1},"content":"","children":[{"type":"list_item","depth":5,"payload":{"lines":[28,29],"index":1},"content":"1. exelで名前，担当，研究内容（一言/やりたいこと)をまとめ責任者に報告する．"},{"type":"list_item","depth":5,"payload":{"lines":[29,30],"index":2},"content":"2. 責任者の承認後，feature/memberブランチにてhtmlを編集する．"},{"type":"list_item","depth":5,"payload":{"lines":[30,31],"index":3},"content":"3. 完成したらdevelopブランチにプルリクエストを送る．（プルリクエストを送る直前にページ下部の最終変更日及びバージョンを編集する．）"},{"type":"list_item","depth":5,"payload":{"lines":[31,32],"index":4},"content":"4. プルリクエストが承認されたら終了．"}]}]},{"type":"heading","depth":3,"payload":{"lines":[33,34]},"content":"メンバー紹介/OB＆OG","children":[{"type":"ordered_list","depth":4,"payload":{"lines":[36,37],"startIndex":1},"content":"","children":[{"type":"list_item","depth":5,"payload":{"lines":[36,37],"index":1},"content":"1. feature/obogブランチにてhtmlを編集する．"}]},{"type":"blockquote","depth":4,"payload":{"lines":[37,38]},"content":"","children":[{"type":"list_item","depth":5,"payload":{"lines":[37,38],"index":1},"content":"1. htmlで名前順に配置されているのでそれに従い直近の卒業生の名前，研究内容を追加する．"}]},{"type":"ordered_list","depth":4,"payload":{"lines":[38,41],"startIndex":2},"content":"","children":[{"type":"list_item","depth":5,"payload":{"lines":[38,39],"index":2},"content":"2. 完成したらdevelopブランチにプルリクエストを送る．（プルリクエストを送る直前にページ下部の最終変更日及びバージョンを編集する．）"},{"type":"list_item","depth":5,"payload":{"lines":[39,40],"index":3},"content":"3. プルリクエストが承認されたら終了．"}]}]},{"type":"heading","depth":3,"payload":{"lines":[41,42]},"content":"画像の追加","children":[{"type":"bullet_list","depth":4,"payload":{"lines":[43,47]},"content":"","children":[{"type":"list_item","depth":5,"payload":{"lines":[43,44]},"content":"新配属メンバーの画像"},{"type":"list_item","depth":5,"payload":{"lines":[44,45]},"content":"2022年度活動報告のアイコン画像の追加"},{"type":"list_item","depth":5,"payload":{"lines":[45,46]},"content":"活動報告で使用する画像の追加"}]},{"type":"fence","depth":4,"content":"<pre><code>public_html/image/\n</code></pre>\n"},{"type":"heading","depth":4,"payload":{"lines":[52,53]},"content":"<strong>新配属メンバーの画像</strong>","children":[{"type":"fence","depth":5,"content":"<pre><code>public_html/image/prof_image/\n</code></pre>\n"},{"type":"blockquote","depth":5,"payload":{"lines":[57,60]},"content":"","children":[{"type":"paragraph","depth":6,"payload":{"lines":[57,60]},"content":"仕様：<br>\n縦横比　160px × 120px　（4：3)<br>\nファイルネーム　familyname_prof.jpg  (拡張子は.jpgのみ受け付ける)"}]}]},{"type":"heading","depth":4,"payload":{"lines":[61,62]},"content":"<strong>2022年度活動報告のアイコン画像の追加</strong>","children":[{"type":"fence","depth":5,"content":"<pre><code>public_html/image/nav_act_rep2022_S.png\n</code></pre>\n"},{"type":"fence","depth":5,"content":"<pre><code>nav_act_rep2022.png\n</code></pre>\n"}]},{"type":"heading","depth":4,"payload":{"lines":[73,74]},"content":"<strong>活動報告で使用する画像の追加（仮）</strong>"}]},{"type":"heading","depth":3,"payload":{"lines":[80,81]},"content":"ヘッダーのプルダウンメニューで活動報告の2022年度画像の追加をすべてのページで行う"}]}]},{"type":"heading","depth":1,"payload":{"lines":[86,87]},"content":"ブランチについて","children":[{"type":"list_item","depth":2,"payload":{"lines":[87,89]},"content":"main<br>\n　リリースした時点のソースコードを管理するブランチ"},{"type":"list_item","depth":2,"payload":{"lines":[90,92]},"content":"develop (mainから派生)<br>\n　開発作業の主軸となるブランチ"},{"type":"list_item","depth":2,"payload":{"lines":[93,95]},"content":"feature (developから派生)<br>\n　実装する機能毎のブランチ (feature/◯◯, feature/xxなど)"},{"type":"list_item","depth":2,"payload":{"lines":[96,99]},"content":"release (developから派生)<br>\n　developでの開発作業完了後、リリース時の微調整を行うブランチ<br>\n　(バージョン番号の変更などで使いました。)"},{"type":"list_item","depth":2,"payload":{"lines":[100,102]},"content":"hotfix (masterから派生)<br>\n　リリースされた製品に致命的なバグ(クラッシュなど)があった場合に緊急対応をするためのブランチ"}]}]},{})</script>
+</body>
+</html>
