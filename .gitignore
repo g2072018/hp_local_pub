@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # Macの設定ファイルを削除
 .DS_Store
 # Windowsの設定ファイルを削除
+=======
+# macOS
+.DS_Store
+# Windows
+>>>>>>> feature
 Thumbs.db
