@@ -314,16 +314,16 @@ member_graduate 1.html
 member_graduate.html
 member.html
 */
-#backcolor01 {
+#backcolor01, .backcolor01 {
 	background-color: #F1F1E2;
 }
-#backcolor02 {
+#backcolor02, .backcolor02 {
 	background-color: #FBFBF2;
 }
-#backcolor03 {
+#backcolor03, .backcolor03 {
 	background-color: #F0F0DD;
 }
-#backcolor04 {
+#backcolor04, .backcolor04 {
 	background-color: #F4F4E8;
 }
 span {
