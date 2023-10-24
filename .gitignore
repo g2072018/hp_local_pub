@@ -1,0 +1,4 @@
+# Macの設定ファイルを削除
+.DS_Store
+# Windowsの設定ファイルを削除
+Thumbs.db
