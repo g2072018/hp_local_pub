@@ -70,7 +70,7 @@ h1 {
 h2 {
 	font-size: 15pt;
 	text-align: right;
-	padding-top: 66px;
+	padding-top: 40px;
 	max-width: 893px;
 	min-width: 461px;
 	position: relative;
@@ -509,7 +509,7 @@ h3+p {
 	margin-top: 5px;
 	margin-right: 5px;
 	font-size: 25px;
-    margin-lift: 5px;
+    margin-left: 5px;
 }
 h4 {
 	padding-bottom: 24px;
