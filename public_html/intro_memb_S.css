@@ -347,7 +347,7 @@ blue {
 	height: auto;
 	background-color: #F8F9F4;
 	margin: 5px;
-	marign-right: 5px;
+	margin-right: 5px;
 	padding: 10px;
 	display: flex;
 	display: -webkit-flex;
@@ -379,9 +379,7 @@ h4 {
 
 }
 
-.content {
-	display: none;
-}
+
 
 .content_smart h4 {
 	background-repeat: repeat-x;
