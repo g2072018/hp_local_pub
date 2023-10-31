@@ -216,6 +216,13 @@ VSCodeでDraw.ioが使えるようになったらしい！ - Qiita
 
 - [VSCodeでMarkdownの改行をする](https://qiita.com/fuk101/items/0fea05c93e70195275c3)
 
+## プルリクエストについて  
+プルリクエストの方法については[こちら](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request)から確認してください．  
+※GitHubの公式ドキュメントが埋め込まれています．  
+
+1. 作業用のブランチ(feature/作業ブランチ名)でpushを行う  
+2. GitHubのページに行く  
+
 
 ## 進捗状況
 1. ./public_html/image/prof_image/  
